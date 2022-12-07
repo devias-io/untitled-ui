@@ -1,0 +1,12 @@
+# Node modules
+node_modules
+# Build folders
+build
+# Environment vars
+.env
+# Misc
+.DS_Store
+.idea
+.vscode
+*.log
+package-lock.json

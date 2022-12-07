@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "target": "ES6",
+    "lib": [
+      "ESNext"
+    ],
+    "jsx": "preserve",
+    "moduleResolution": "node"
+  },
+  "exclude": [
+    "**/node_modules"
+  ]
+}

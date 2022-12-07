@@ -1,0 +1,32 @@
+{
+  "name": "@untitled-ui/monorepo",
+  "version": "0.1.0",
+  "author": "Devias IO",
+  "description": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devias-io/untitled-ui.git"
+  },
+  "scripts": {
+    "build:icons": "npm run build:icons:react",
+    "build:icons:react": "node scripts/build-icons/index.mjs build --pkg react"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@svgr/core": "^6.5.1",
+    "@svgr/plugin-jsx": "^6.5.1",
+    "@svgr/plugin-prettier": "^6.5.1",
+    "@svgr/plugin-svgo": "^6.5.1",
+    "@types/node": "^18.11.11",
+    "@types/react": "^18.0.26",
+    "@types/yargs": "^17.0.15",
+    "camelcase": "^7.0.0",
+    "react": "^18.2.0",
+    "svgo": "^3.0.2",
+    "typescript": "^4.9.3",
+    "yargs": "^17.6.2"
+  }
+}
