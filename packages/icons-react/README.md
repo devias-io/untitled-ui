@@ -29,8 +29,8 @@ The package supports both `CommonJS` and `ESModule` versions.
 import { Activity } from "@untitled-ui/icons-react";
 
 // CJS default imports
-import Activity from "@untitled-ui/icons-react/buid/cjs/Activity";
+import Activity from "@untitled-ui/icons-react/build/cjs/Activity";
 
 // ESM default imports
-import Activity from "@untitled-ui/icons-react/buid/esm/Activity";
+import Activity from "@untitled-ui/icons-react/build/esm/Activity";
 ```
