@@ -9,11 +9,6 @@ const Glasses02 = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="#fff"
-      fillOpacity={0.01}
-      d="M9.1456 11.4544c1.4059 1.4059 1.4059 3.6853 0 5.0912s-3.6853 1.4059-5.0912 0-1.4059-3.6853 0-5.0912 3.6853-1.4059 5.0912 0Zm10.8 0c1.4059 1.4059 1.4059 3.6853 0 5.0912s-3.6853 1.4059-5.0912 0-1.4059-3.6853 0-5.0912 3.6853-1.4059 5.0912 0Z"
-    />
-    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"

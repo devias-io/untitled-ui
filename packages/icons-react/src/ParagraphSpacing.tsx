@@ -8,7 +8,6 @@ const ParagraphSpacing = (props: SVGProps<SVGSVGElement>) => (
     fill="none"
     {...props}
   >
-    <path fill="#fff" fillOpacity={0.01} d="m3 7 3-3 3 3M3 17l3 3 3-3" />
     <path
       stroke="currentColor"
       strokeLinecap="round"

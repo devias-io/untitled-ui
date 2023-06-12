@@ -9,11 +9,6 @@ const CreditCardUpload = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="#fff"
-      fillOpacity={0.01}
-      d="M3 8.5h18V6.88c0-1.008 0-1.5121-.1962-1.8972a1.8 1.8 0 0 0-.7866-.7866C19.6321 4 19.1281 4 18.12 4H5.88c-1.008 0-1.5121 0-1.8972.1962a1.8 1.8 0 0 0-.7866.7866C3 5.3678 3 5.872 3 6.88V8.5Z"
-    />
-    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"

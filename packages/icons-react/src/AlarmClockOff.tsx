@@ -9,11 +9,6 @@ const AlarmClockOff = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="#fff"
-      fillOpacity={0.01}
-      d="M21 5.7 18.3 3 21 5.7ZM6.6 17.4l-1.8 1.8 1.8-1.8Z"
-    />
-    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"

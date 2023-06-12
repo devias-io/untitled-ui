@@ -9,16 +9,6 @@ const FaceHappy = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="#fff"
-      fillOpacity={0.01}
-      d="M12 20c4.9706 0 9-4.0294 9-9s-4.0294-9-9-9-9 4.0294-9 9 4.0294 9 9 9Z"
-    />
-    <path
-      fill="#fff"
-      fillOpacity={0.01}
-      d="M15.15 8.3a.45.45 0 1 1-.9 0 .45.45 0 0 1 .9 0Zm-5.4 0a.45.45 0 1 1-.9 0 .45.45 0 0 1 .9 0ZM12 15.95c2.2505 0 4.05-1.6497 4.05-3.15h-8.1c0 1.5003 1.7995 3.15 4.05 3.15Z"
-    />
-    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"

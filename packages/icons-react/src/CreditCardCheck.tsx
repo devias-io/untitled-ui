@@ -8,7 +8,6 @@ const CreditCardCheck = (props: SVGProps<SVGSVGElement>) => (
     fill="none"
     {...props}
   >
-    <path fill="#fff" fillOpacity={0.01} d="m15.6 16.7 1.8 1.8 3.6-3.6" />
     <path
       stroke="currentColor"
       strokeLinecap="round"

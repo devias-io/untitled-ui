@@ -8,7 +8,6 @@ const FlipBackward = (props: SVGProps<SVGSVGElement>) => (
     fill="none"
     {...props}
   >
-    <path fill="#fff" fillOpacity={0.01} d="M7 5 3 9l4 4" />
     <path
       stroke="currentColor"
       strokeLinecap="round"

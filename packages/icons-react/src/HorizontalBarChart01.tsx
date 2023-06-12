@@ -9,11 +9,6 @@ const HorizontalBarChart01 = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="#fff"
-      fillOpacity={0.01}
-      d="M17.76 14.25c.504 0 .7561 0 .9486-.0981a.9006.9006 0 0 0 .3933-.3933c.0981-.1925.0981-.4446.0981-.9486v-1.62c0-.504 0-.7561-.0981-.9486a.9005.9005 0 0 0-.3933-.3933C18.5161 9.75 18.264 9.75 17.76 9.75H3v4.5h14.76ZM3 3v18V3Z"
-    />
-    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"

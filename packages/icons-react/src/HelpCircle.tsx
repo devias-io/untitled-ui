@@ -9,16 +9,6 @@ const HelpCircle = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="#fff"
-      fillOpacity={0.01}
-      d="M12 21c4.9706 0 9-4.0294 9-9s-4.0294-9-9-9-9 4.0294-9 9 4.0294 9 9 9Z"
-    />
-    <path
-      fill="#fff"
-      fillOpacity={0.01}
-      d="M9.381 9.3a2.6997 2.6997 0 0 1 3.0035-1.7652A2.7003 2.7003 0 0 1 14.628 10.2c0 1.8-2.7 2.7-2.7 2.7"
-    />
-    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"

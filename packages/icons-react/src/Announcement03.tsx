@@ -9,11 +9,6 @@ const Announcement03 = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="#fff"
-      fillOpacity={0.01}
-      d="M21 8.85c0 3.2309-1.4103 5.85-3.15 5.85-1.7397 0-3.15-2.6191-3.15-5.85C14.7 5.6191 16.1103 3 17.85 3 19.5897 3 21 5.6191 21 8.85Z"
-    />
-    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"

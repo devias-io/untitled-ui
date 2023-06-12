@@ -8,7 +8,6 @@ const Shuffle01 = (props: SVGProps<SVGSVGElement>) => (
     fill="none"
     {...props}
   >
-    <path fill="#fff" fillOpacity={0.01} d="m18 15 3 3-3 3m0-18 3 3-3 3" />
     <path
       stroke="currentColor"
       strokeLinecap="round"

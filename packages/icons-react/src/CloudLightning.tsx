@@ -8,7 +8,6 @@ const CloudLightning = (props: SVGProps<SVGSVGElement>) => (
     fill="none"
     {...props}
   >
-    <path fill="#fff" fillOpacity={0.01} d="m12.9 9.2-3.6 5.4h5.4L11.1 20" />
     <path
       stroke="currentColor"
       strokeLinecap="round"

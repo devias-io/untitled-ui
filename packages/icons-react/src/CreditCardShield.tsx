@@ -9,11 +9,6 @@ const CreditCardShield = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="#fff"
-      fillOpacity={0.01}
-      d="M17.4 19.4s2.7-1.2869 2.7-3.2173v-2.2521l-1.9688-.7035a2.1693 2.1693 0 0 0-1.4634 0l-1.9678.7035v2.2521c0 1.9304 2.7 3.2173 2.7 3.2173Z"
-    />
-    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"

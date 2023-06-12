@@ -9,11 +9,6 @@ const CodeSnippet02 = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="#fff"
-      fillOpacity={0.01}
-      d="m16.5 15.6 4.5-4.5-4.5-4.5m-9 0L3 11.1l4.5 4.5"
-    />
-    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"

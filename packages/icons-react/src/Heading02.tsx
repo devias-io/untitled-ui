@@ -8,7 +8,6 @@ const Heading02 = (props: SVGProps<SVGSVGElement>) => (
     fill="none"
     {...props}
   >
-    <path fill="#fff" fillOpacity={0.01} d="M6 20V4h3.5v16H6Z" />
     <path
       stroke="currentColor"
       strokeLinecap="round"

@@ -9,16 +9,6 @@ const Compass01 = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="#fff"
-      fillOpacity={0.01}
-      d="M12 20c4.9706 0 9-4.0294 9-9s-4.0294-9-9-9-9 4.0294-9 9 4.0294 9 9 9Z"
-    />
-    <path
-      fill="#fff"
-      fillOpacity={0.01}
-      d="M10.65 9.65 8.4 11l2.25 1.35L12 14.6l1.35-2.25L15.6 11l-2.25-1.35L12 7.4l-1.35 2.25Z"
-    />
-    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"

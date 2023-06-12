@@ -9,16 +9,6 @@ const MarkerPin04 = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="#fff"
-      fillOpacity={0.01}
-      d="M12 15.5c1.35-2.7 5.4-4.4427 5.4-8.1C17.4 4.4177 14.9823 2 12 2 9.0177 2 6.6 4.4177 6.6 7.4c0 3.6573 4.05 5.4 5.4 8.1Z"
-    />
-    <path
-      fill="#fff"
-      fillOpacity={0.01}
-      d="M12 8.3a.9.9 0 0 0 .9-.9.9.9 0 0 0-.9-.9.9.9 0 0 0-.9.9.9.9 0 0 0 .9.9Z"
-    />
-    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"

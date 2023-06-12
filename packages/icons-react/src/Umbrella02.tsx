@@ -9,11 +9,6 @@ const Umbrella02 = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="#fff"
-      fillOpacity={0.01}
-      d="M12 2c-4.9706 0-9 4.0294-9 9 0 0 1.2508-.9 2.7-.9 1.4492 0 2.7.9 2.7.9s2.1508-.9 3.6-.9c1.4492 0 3.6.9 3.6.9s1.2508-.9 2.7-.9c1.4492 0 2.7.9 2.7.9 0-4.9706-4.0294-9-9-9Z"
-    />
-    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"

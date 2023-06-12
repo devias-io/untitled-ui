@@ -9,11 +9,6 @@ const Star07 = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="#fff"
-      fillOpacity={0.01}
-      d="m12 6.5 1.3905 2.817 3.1095.4545-2.25 2.1915.531 3.096L12 13.5965 9.219 15.059l.531-3.096L7.5 9.7715l3.1095-.4545L12 6.5Z"
-    />
-    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"

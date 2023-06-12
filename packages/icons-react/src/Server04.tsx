@@ -9,16 +9,6 @@ const Server04 = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="#fff"
-      fillOpacity={0.01}
-      d="M3 10.15C3 8.4103 4.4103 7 6.15 7h11.7C19.5897 7 21 8.4103 21 10.15c0 1.7397-1.4103 3.15-3.15 3.15H6.15C4.4103 13.3 3 11.8897 3 10.15Z"
-    />
-    <path
-      fill="#fff"
-      fillOpacity={0.01}
-      d="M3 16.45c0-1.7397 1.4103-3.15 3.15-3.15h11.7c1.7397 0 3.15 1.4103 3.15 3.15 0 1.7397-1.4103 3.15-3.15 3.15H6.15C4.4103 19.6 3 18.1897 3 16.45Z"
-    />
-    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"

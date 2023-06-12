@@ -9,11 +9,6 @@ const ClockRefresh = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="#fff"
-      fillOpacity={0.01}
-      d="m3.4932 18.0659.732-2.732 2.732.732m10.085-8.1319 2.7321.732.732-2.732M11.9997 7.5V12l2.5 1.5"
-    />
-    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"

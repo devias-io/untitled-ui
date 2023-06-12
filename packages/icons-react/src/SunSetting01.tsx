@@ -9,11 +9,6 @@ const SunSetting01 = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="#fff"
-      fillOpacity={0.01}
-      d="M12 8.4c-2.9823 0-5.4 2.4177-5.4 5.4h10.8c0-2.9823-2.4177-5.4-5.4-5.4Z"
-    />
-    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"

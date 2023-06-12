@@ -8,7 +8,6 @@ const ChartBreakoutCircle = (props: SVGProps<SVGSVGElement>) => (
     fill="none"
     {...props}
   >
-    <path fill="#fff" fillOpacity={0.01} d="M11 8.4h3.6V12" />
     <path
       stroke="currentColor"
       strokeLinecap="round"

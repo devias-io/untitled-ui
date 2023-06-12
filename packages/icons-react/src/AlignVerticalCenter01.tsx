@@ -9,11 +9,6 @@ const AlignVerticalCenter01 = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="#fff"
-      fillOpacity={0.01}
-      d="m14.7 5.25-3.6 3.6-3.6-3.6m7.2 13.5-3.6-3.6-3.6 3.6"
-    />
-    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"

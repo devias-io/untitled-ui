@@ -9,11 +9,6 @@ const BarChart05 = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="#fff"
-      fillOpacity={0.01}
-      d="M3 17v4-4Zm12-9v13V8Zm-6 5v8-8ZM21 3v18V3Z"
-    />
-    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"

@@ -8,7 +8,6 @@ const BarChartSquareUp = (props: SVGProps<SVGSVGElement>) => (
     fill="none"
     {...props}
   >
-    <path fill="#fff" fillOpacity={0.01} d="M8 13v4-4Zm8-2v6-6Zm-4-4v10V7Z" />
     <path
       stroke="currentColor"
       strokeLinecap="round"

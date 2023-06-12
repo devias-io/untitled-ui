@@ -8,7 +8,6 @@ const Upload01 = (props: SVGProps<SVGSVGElement>) => (
     fill="none"
     {...props}
   >
-    <path fill="#fff" fillOpacity={0.01} d="m17 8-5-5-5 5" />
     <path
       stroke="currentColor"
       strokeLinecap="round"

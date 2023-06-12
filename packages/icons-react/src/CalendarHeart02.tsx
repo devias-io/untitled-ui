@@ -9,13 +9,6 @@ const CalendarHeart02 = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="#fff"
-      fillOpacity={0.01}
-      fillRule="evenodd"
-      d="M16.0478 15.3407c-.6298-.7012-1.68-.8898-2.4691-.2477-.7891.6421-.9002 1.7157-.2805 2.4751.6197.7594 2.7496 2.5319 2.7496 2.5319s2.13-1.7725 2.7497-2.5319c.6196-.7594.5221-1.8397-.2805-2.4751-.8027-.6354-1.8394-.4535-2.4692.2477Z"
-      clipRule="evenodd"
-    />
-    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"

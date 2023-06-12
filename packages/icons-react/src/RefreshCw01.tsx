@@ -8,7 +8,6 @@ const RefreshCw01 = (props: SVGProps<SVGSVGElement>) => (
     fill="none"
     {...props}
   >
-    <path fill="#fff" fillOpacity={0.01} d="M21 4v6h-6" />
     <path
       stroke="currentColor"
       strokeLinecap="round"

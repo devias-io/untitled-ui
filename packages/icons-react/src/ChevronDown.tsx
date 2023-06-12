@@ -8,7 +8,6 @@ const ChevronDown = (props: SVGProps<SVGSVGElement>) => (
     fill="none"
     {...props}
   >
-    <path fill="#fff" fillOpacity={0.01} d="m6 9 6 6 6-6" />
     <path
       stroke="currentColor"
       strokeLinecap="round"

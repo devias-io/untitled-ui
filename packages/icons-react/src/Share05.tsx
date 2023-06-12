@@ -9,12 +9,6 @@ const Share05 = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="#fff"
-      fillOpacity={0.01}
-      d="M21 6h-3.2c-1.6802 0-2.5202 0-3.162.327a2.9997 2.9997 0 0 0-1.311 1.311C13 8.2798 13 9.1198 13 10.8V12"
-    />
-    <path fill="#fff" fillOpacity={0.01} d="m18 3 3 3-3 3" />
-    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"

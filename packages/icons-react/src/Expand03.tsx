@@ -8,7 +8,6 @@ const Expand03 = (props: SVGProps<SVGSVGElement>) => (
     fill="none"
     {...props}
   >
-    <path fill="#fff" fillOpacity={0.01} d="M15 3h6v6M9 21H3v-6" />
     <path
       stroke="currentColor"
       strokeLinecap="round"

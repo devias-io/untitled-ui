@@ -9,16 +9,6 @@ const Atom02 = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="#fff"
-      fillOpacity={0.01}
-      d="M16.2635 7.7782c4.2958 4.2958 5.8787 9.6777 3.5356 12.0209-2.3432 2.3431-7.7251.7602-12.0209-3.5356-4.2957-4.2957-5.8786-9.6776-3.5355-12.0208 2.3431-2.3431 7.7251-.7602 12.0208 3.5355Z"
-    />
-    <path
-      fill="#fff"
-      fillOpacity={0.01}
-      d="M12.0001 13c.5522 0 1-.4477 1-1s-.4478-1-1-1c-.5523 0-1 .4477-1 1s.4477 1 1 1Z"
-    />
-    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"

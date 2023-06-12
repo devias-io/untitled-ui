@@ -9,11 +9,6 @@ const ZapOff = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="#fff"
-      fillOpacity={0.01}
-      d="M11.1 13.8H4.5372c-.4903 0-.7355 0-.8593-.1a.45.45 0 0 1-.167-.3568c.0023-.1591.1593-.3474.4732-.7241L7.5 8.4l7.2 7.2-4.5 5.4.9-7.2Z"
-    />
-    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"

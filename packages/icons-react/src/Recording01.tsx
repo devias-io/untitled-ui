@@ -9,11 +9,6 @@ const Recording01 = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="#fff"
-      fillOpacity={0.01}
-      d="M3 10v4-4Zm4.5-4v12V6ZM12 3v18V3Zm4.5 3v12V6Zm4.5 4v4-4Z"
-    />
-    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"

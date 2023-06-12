@@ -7,16 +7,6 @@ const ArrowBlockRight = (props: SVGProps<SVGSVGElement>) => (
     height={24}
     fill="none"
     {...props}
-  >
-    <path
-      fill="#fff"
-      fillOpacity={0.01}
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="m21 12-7-7v4H3.8c-.28 0-.42 0-.527.0545a.5.5 0 0 0-.2185.2185C3 9.38 3 9.52 3 9.8v4.4c0 .28 0 .42.0545.527a.4996.4996 0 0 0 .2185.2185C3.38 15 3.52 15 3.8 15H14v4l7-7Z"
-    />
-  </svg>
+  ></svg>
 );
 export default ArrowBlockRight;

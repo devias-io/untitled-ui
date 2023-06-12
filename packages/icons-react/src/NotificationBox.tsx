@@ -9,11 +9,6 @@ const NotificationBox = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="#fff"
-      fillOpacity={0.01}
-      d="M20.1213 3.8787c1.1716 1.1716 1.1716 3.071 0 4.2426-1.1716 1.1716-3.071 1.1716-4.2426 0-1.1716-1.1715-1.1716-3.071 0-4.2426 1.1716-1.1716 3.071-1.1716 4.2426 0Z"
-    />
-    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"

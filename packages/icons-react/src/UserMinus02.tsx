@@ -9,11 +9,6 @@ const UserMinus02 = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="#fff"
-      fillOpacity={0.01}
-      d="M9.3 10.3c1.7397 0 3.15-1.4103 3.15-3.15C12.45 5.4103 11.0397 4 9.3 4 7.5603 4 6.15 5.4103 6.15 7.15c0 1.7397 1.4103 3.15 3.15 3.15Z"
-    />
-    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"

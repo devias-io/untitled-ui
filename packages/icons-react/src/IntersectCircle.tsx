@@ -9,16 +9,6 @@ const IntersectCircle = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="#fff"
-      fillOpacity={0.01}
-      d="M9.3 14.6c3.4794 0 6.3-2.8206 6.3-6.3 0-3.4794-2.8206-6.3-6.3-6.3C5.8206 2 3 4.8206 3 8.3c0 3.4794 2.8206 6.3 6.3 6.3Z"
-    />
-    <path
-      fill="#fff"
-      fillOpacity={0.01}
-      d="M14.7 20c3.4794 0 6.3-2.8206 6.3-6.3 0-3.4794-2.8206-6.3-6.3-6.3-3.4794 0-6.3 2.8206-6.3 6.3 0 3.4794 2.8206 6.3 6.3 6.3Z"
-    />
-    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"

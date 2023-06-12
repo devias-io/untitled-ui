@@ -9,11 +9,6 @@ const Expand05 = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="#fff"
-      fillOpacity={0.01}
-      d="M15 3h6v6M3 9V3h6m0 18H3v-6m18 0v6h-6"
-    />
-    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"

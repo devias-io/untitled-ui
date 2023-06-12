@@ -8,7 +8,6 @@ const Hash01 = (props: SVGProps<SVGSVGElement>) => (
     fill="none"
     {...props}
   >
-    <path fill="#fff" fillOpacity={0.01} d="M16 8H8v8h8V8Z" />
     <path
       stroke="currentColor"
       strokeLinecap="round"

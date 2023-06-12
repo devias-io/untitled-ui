@@ -8,7 +8,6 @@ const Italic02 = (props: SVGProps<SVGSVGElement>) => (
     fill="none"
     {...props}
   >
-    <path fill="#fff" fillOpacity={0.01} d="m7.25 20 6-16h3.5l-6 16h-3.5Z" />
     <path
       stroke="currentColor"
       strokeLinecap="round"
