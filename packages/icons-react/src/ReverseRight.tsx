@@ -1,10 +1,14 @@
 import * as React from 'react';
-import { SVGProps } from 'react';
-const ReverseRight = (props: SVGProps<SVGSVGElement>) => (
+import { SVGProps, Ref, forwardRef, memo } from 'react';
+const ReverseRight = (
+  props: SVGProps<SVGSVGElement>,
+  ref: Ref<SVGSVGElement>
+) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
     viewBox="0 0 24 24"
+    ref={ref}
     {...props}
   >
     <path
@@ -16,4 +20,6 @@ const ReverseRight = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-export default ReverseRight;
+const ForwardRef = forwardRef(ReverseRight);
+const Memo = memo(ForwardRef);
+export default Memo;

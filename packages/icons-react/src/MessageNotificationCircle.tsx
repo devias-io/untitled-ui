@@ -1,10 +1,14 @@
 import * as React from 'react';
-import { SVGProps } from 'react';
-const MessageNotificationCircle = (props: SVGProps<SVGSVGElement>) => (
+import { SVGProps, Ref, forwardRef, memo } from 'react';
+const MessageNotificationCircle = (
+  props: SVGProps<SVGSVGElement>,
+  ref: Ref<SVGSVGElement>
+) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
     viewBox="0 0 24 24"
+    ref={ref}
     {...props}
   >
     <path
@@ -16,4 +20,6 @@ const MessageNotificationCircle = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-export default MessageNotificationCircle;
+const ForwardRef = forwardRef(MessageNotificationCircle);
+const Memo = memo(ForwardRef);
+export default Memo;

@@ -1,10 +1,14 @@
 import * as React from 'react';
-import { SVGProps } from 'react';
-const MessageHeartCircle = (props: SVGProps<SVGSVGElement>) => (
+import { SVGProps, Ref, forwardRef, memo } from 'react';
+const MessageHeartCircle = (
+  props: SVGProps<SVGSVGElement>,
+  ref: Ref<SVGSVGElement>
+) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
     viewBox="0 0 24 24"
+    ref={ref}
     {...props}
   >
     <path
@@ -24,4 +28,6 @@ const MessageHeartCircle = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-export default MessageHeartCircle;
+const ForwardRef = forwardRef(MessageHeartCircle);
+const Memo = memo(ForwardRef);
+export default Memo;

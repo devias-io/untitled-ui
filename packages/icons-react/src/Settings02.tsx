@@ -1,10 +1,14 @@
 import * as React from 'react';
-import { SVGProps } from 'react';
-const Settings02 = (props: SVGProps<SVGSVGElement>) => (
+import { SVGProps, Ref, forwardRef, memo } from 'react';
+const Settings02 = (
+  props: SVGProps<SVGSVGElement>,
+  ref: Ref<SVGSVGElement>
+) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
     viewBox="0 0 24 24"
+    ref={ref}
     {...props}
   >
     <path
@@ -23,4 +27,6 @@ const Settings02 = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-export default Settings02;
+const ForwardRef = forwardRef(Settings02);
+const Memo = memo(ForwardRef);
+export default Memo;

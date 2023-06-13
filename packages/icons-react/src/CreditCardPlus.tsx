@@ -1,10 +1,14 @@
 import * as React from 'react';
-import { SVGProps } from 'react';
-const CreditCardPlus = (props: SVGProps<SVGSVGElement>) => (
+import { SVGProps, Ref, forwardRef, memo } from 'react';
+const CreditCardPlus = (
+  props: SVGProps<SVGSVGElement>,
+  ref: Ref<SVGSVGElement>
+) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
     viewBox="0 0 24 24"
+    ref={ref}
     {...props}
   >
     <path
@@ -16,4 +20,6 @@ const CreditCardPlus = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-export default CreditCardPlus;
+const ForwardRef = forwardRef(CreditCardPlus);
+const Memo = memo(ForwardRef);
+export default Memo;

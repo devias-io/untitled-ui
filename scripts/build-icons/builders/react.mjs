@@ -48,7 +48,9 @@ export async function build(pkgDir, iconsPaths) {
         replaceAttrValues: {
           '#000': 'currentColor'
         },
-        typescript: true
+        typescript: true,
+        ref: true,
+        memo: true,
       },
       { componentName }
     );

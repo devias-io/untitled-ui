@@ -1,10 +1,14 @@
 import * as React from 'react';
-import { SVGProps } from 'react';
-const CornerDownLeft = (props: SVGProps<SVGSVGElement>) => (
+import { SVGProps, Ref, forwardRef, memo } from 'react';
+const CornerDownLeft = (
+  props: SVGProps<SVGSVGElement>,
+  ref: Ref<SVGSVGElement>
+) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
     viewBox="0 0 24 24"
+    ref={ref}
     {...props}
   >
     <path
@@ -16,4 +20,6 @@ const CornerDownLeft = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-export default CornerDownLeft;
+const ForwardRef = forwardRef(CornerDownLeft);
+const Memo = memo(ForwardRef);
+export default Memo;

@@ -1,10 +1,14 @@
 import * as React from 'react';
-import { SVGProps } from 'react';
-const IntersectSquare = (props: SVGProps<SVGSVGElement>) => (
+import { SVGProps, Ref, forwardRef, memo } from 'react';
+const IntersectSquare = (
+  props: SVGProps<SVGSVGElement>,
+  ref: Ref<SVGSVGElement>
+) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
     viewBox="0 0 24 24"
+    ref={ref}
     {...props}
   >
     <path
@@ -23,4 +27,6 @@ const IntersectSquare = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-export default IntersectSquare;
+const ForwardRef = forwardRef(IntersectSquare);
+const Memo = memo(ForwardRef);
+export default Memo;
