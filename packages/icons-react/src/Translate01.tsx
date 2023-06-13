@@ -3,16 +3,10 @@ import { SVGProps } from 'react';
 const Translate01 = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
-    <path
-      fill="#fff"
-      fillOpacity={0.01}
-      d="M19.2783 15.6h-6.4566l2.5788-5.3919c.2078-.4345.3117-.6517.4538-.7203a.45.45 0 0 1 .3914 0c.1421.0686.246.2858.4538.7203L19.2783 15.6Z"
-    />
     <path
       stroke="currentColor"
       strokeLinecap="round"

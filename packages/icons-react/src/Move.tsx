@@ -3,16 +3,10 @@ import { SVGProps } from 'react';
 const Move = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
-    <path
-      fill="#fff"
-      fillOpacity={0.01}
-      d="M5.7 8.3 3 11l2.7 2.7m3.6-9L12 2l2.7 2.7m0 12.6L12 20l-2.7-2.7m9-9L21 11l-2.7 2.7"
-    />
     <path
       stroke="currentColor"
       strokeLinecap="round"

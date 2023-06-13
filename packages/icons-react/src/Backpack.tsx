@@ -3,16 +3,10 @@ import { SVGProps } from 'react';
 const Backpack = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
-    <path
-      fill="#fff"
-      fillOpacity={0.01}
-      d="M3 7.7143c0-1.5994 0-2.399.297-3.016a3 3 0 0 1 1.4013-1.4012C5.3153 3 6.115 3 7.7143 3h8.5714c1.5994 0 2.399 0 3.016.297a3.0001 3.0001 0 0 1 1.4012 1.4013C21 5.3153 21 6.115 21 7.7143c0 2.1324 0 3.1987-.3961 4.0212a3.9999 3.9999 0 0 1-1.8684 1.8684C17.913 14 16.8467 14 14.7143 14H9.2857c-2.1324 0-3.1987 0-4.0212-.3961a4 4 0 0 1-1.8684-1.8684C3 10.913 3 9.8467 3 7.7143Z"
-    />
     <path
       stroke="currentColor"
       strokeLinecap="round"

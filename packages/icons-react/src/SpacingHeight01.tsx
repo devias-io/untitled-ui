@@ -3,12 +3,10 @@ import { SVGProps } from 'react';
 const SpacingHeight01 = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
-    <path fill="#fff" fillOpacity={0.01} d="m9 8 3-2 3 2m-6 8 3 2 3-2" />
     <path
       stroke="currentColor"
       strokeLinecap="round"

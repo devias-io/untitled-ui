@@ -3,16 +3,10 @@ import { SVGProps } from 'react';
 const Building07 = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
-    <path
-      fill="#fff"
-      fillOpacity={0.01}
-      d="M5.34 10.2h2.61V5.88c0-1.008 0-1.5121.1962-1.8972a1.8 1.8 0 0 1 .7866-.7866C9.3178 3 9.822 3 10.83 3h2.34c1.0081 0 1.5121 0 1.8972.1962a1.8 1.8 0 0 1 .7866.7866c.1962.385.1962.8891.1962 1.8972v4.32h2.61c.504 0 .7561 0 .9486.0981a.9006.9006 0 0 1 .3933.3933c.0981.1925.0981.4446.0981.9486v7.56H3.9v-7.56c0-.504 0-.7561.098-.9486a.9003.9003 0 0 1 .3934-.3933C4.584 10.2 4.836 10.2 5.34 10.2Z"
-    />
     <path
       stroke="currentColor"
       strokeLinecap="round"

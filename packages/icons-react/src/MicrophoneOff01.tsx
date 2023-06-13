@@ -3,16 +3,10 @@ import { SVGProps } from 'react';
 const MicrophoneOff01 = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
-    <path
-      fill="#fff"
-      fillOpacity={0.01}
-      d="M9.3 11c0 1.4912 1.2088 2.7 2.7 2.7a2.6914 2.6914 0 0 0 1.9103-.792L9.3 8.3V11Z"
-    />
     <path
       stroke="currentColor"
       strokeLinecap="round"

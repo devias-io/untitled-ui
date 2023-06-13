@@ -3,16 +3,10 @@ import { SVGProps } from 'react';
 const UserDown01 = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
-    <path
-      fill="#fff"
-      fillOpacity={0.01}
-      d="M10.2 11.1c2.2368 0 4.05-1.8133 4.05-4.05S12.4368 3 10.2 3C7.9633 3 6.15 4.8133 6.15 7.05s1.8133 4.05 4.05 4.05Z"
-    />
     <path
       stroke="currentColor"
       strokeLinecap="round"

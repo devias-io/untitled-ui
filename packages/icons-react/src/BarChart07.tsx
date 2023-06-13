@@ -3,16 +3,10 @@ import { SVGProps } from 'react';
 const BarChart07 = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
-    <path
-      fill="#fff"
-      fillOpacity={0.01}
-      d="M7 10.5v7-7Zm4.5-5v12-12Zm4.5 5v7-7Zm4.5-5v12-12Z"
-    />
     <path
       stroke="currentColor"
       strokeLinecap="round"

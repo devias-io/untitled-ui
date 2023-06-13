@@ -3,16 +3,10 @@ import { SVGProps } from 'react';
 const CreditCardRefresh = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
-    <path
-      fill="#fff"
-      fillOpacity={0.01}
-      d="m12.9 19.2-1.8-1.8 1.8-1.8m-1.8-9 1.8-1.8L11.1 3"
-    />
     <path
       stroke="currentColor"
       strokeLinecap="round"

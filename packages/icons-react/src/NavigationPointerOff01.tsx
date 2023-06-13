@@ -3,16 +3,10 @@ import { SVGProps } from 'react';
 const NavigationPointerOff01 = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
-    <path
-      fill="#fff"
-      fillOpacity={0.01}
-      d="m10.6271 13.8282 2.6281 6.758c.2315.5954.3473.8931.5141.98a.5.5 0 0 0 .4615.0002c.1669-.0867.2831-.3842.5153-.9793l1.6394-4.201-8.772-8.7719-4.201 1.6394c-.595.2322-.8925.3483-.9792.5152a.5.5 0 0 0 .0002.4616c.087.1668.3846.2826.98.5141l6.758 2.6281c.1208.047.1812.0705.2321.1068a.4992.4992 0 0 1 .1167.1167c.0363.0509.0598.1113.1068.2321Z"
-    />
     <path
       stroke="currentColor"
       strokeLinecap="round"

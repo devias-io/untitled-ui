@@ -3,21 +3,10 @@ import { SVGProps } from 'react';
 const FileQuestion03 = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
-    <path
-      fill="#fff"
-      fillOpacity={0.01}
-      d="M4 7.32c0-1.5121 0-2.2682.2943-2.8458a2.7 2.7 0 0 1 1.18-1.18C6.0517 3 6.8078 3 8.32 3H13l5.4 5.4v8.28c0 1.5121 0 2.2682-.2943 2.8458a2.6996 2.6996 0 0 1-1.1799 1.1799C16.3482 21 15.5921 21 14.08 21H8.32c-1.5121 0-2.2682 0-2.8458-.2943a2.6998 2.6998 0 0 1-1.18-1.1799C4 18.9482 4 18.1921 4 16.68V7.32Z"
-    />
-    <path
-      fill="#fff"
-      fillOpacity={0.01}
-      d="M9.265 12.002a2.0233 2.0233 0 0 1 3.4568-.6316 2.023 2.023 0 0 1 .4755 1.3061c0 1.349-2.0235 2.0235-2.0235 2.0235"
-    />
     <path
       stroke="currentColor"
       strokeLinecap="round"

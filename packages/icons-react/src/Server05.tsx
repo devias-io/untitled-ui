@@ -3,21 +3,10 @@ import { SVGProps } from 'react';
 const Server05 = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
-    <path
-      fill="#fff"
-      fillOpacity={0.01}
-      d="M11.1 15.6c3.4794 0 6.3-2.8206 6.3-6.3 0-3.4794-2.8206-6.3-6.3-6.3-3.4794 0-6.3 2.8206-6.3 6.3 0 3.4794 2.8206 6.3 6.3 6.3Z"
-    />
-    <path
-      fill="#fff"
-      fillOpacity={0.01}
-      d="M11.1 3a9.6395 9.6395 0 0 1 2.5208 6.3A9.6396 9.6396 0 0 1 11.1 15.6a9.6383 9.6383 0 0 1-2.5192-6.3A9.6382 9.6382 0 0 1 11.1 3Zm0 18c.9941 0 1.8-.8059 1.8-1.8 0-.9941-.8059-1.8-1.8-1.8-.9941 0-1.8.8059-1.8 1.8 0 .9941.8059 1.8 1.8 1.8Z"
-    />
     <path
       stroke="currentColor"
       strokeLinecap="round"

@@ -3,17 +3,10 @@ import { SVGProps } from 'react';
 const WatchCircle = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
-    <path fill="#fff" fillOpacity={0.01} d="M11.3 9.3V12l1.35 1.35" />
-    <path
-      fill="#fff"
-      fillOpacity={0.01}
-      d="M11.3 18.3c3.4794 0 6.3-2.8206 6.3-6.3 0-3.4794-2.8206-6.3-6.3-6.3C7.8206 5.7 5 8.5206 5 12c0 3.4794 2.8206 6.3 6.3 6.3Z"
-    />
     <path
       stroke="currentColor"
       strokeLinecap="round"

@@ -3,21 +3,10 @@ import { SVGProps } from 'react';
 const CoinsStacked03 = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
-    <path
-      fill="#fff"
-      fillOpacity={0.01}
-      d="M7.95 6.6c2.7338 0 4.95-.8059 4.95-1.8 0-.9941-2.2162-1.8-4.95-1.8S3 3.8059 3 4.8c0 .9941 2.2162 1.8 4.95 1.8Zm8.1 5.85c2.7338 0 4.95-.8059 4.95-1.8 0-.9941-2.2162-1.8-4.95-1.8s-4.95.8059-4.95 1.8c0 .9941 2.2162 1.8 4.95 1.8Z"
-    />
-    <path
-      fill="#fff"
-      fillOpacity={0.01}
-      d="M11.1 10.65c0-.9941 2.2162-1.8 4.95-1.8s4.95.8059 4.95 1.8v6.75c0 .9941-2.2162 1.8-4.95 1.8s-4.95-.8059-4.95-1.8v-6.75Z"
-    />
     <path
       stroke="currentColor"
       strokeLinecap="round"

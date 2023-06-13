@@ -3,12 +3,10 @@ import { SVGProps } from 'react';
 const BatteryCharging02 = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
-    <path fill="#fff" fillOpacity={0.01} d="m9.75 16.8 3.6-5.4h-5.4l3.6-5.4" />
     <path
       stroke="currentColor"
       strokeLinecap="round"

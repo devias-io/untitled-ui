@@ -3,16 +3,10 @@ import { SVGProps } from 'react';
 const MarkerPin06 = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
-    <path
-      fill="#fff"
-      fillOpacity={0.01}
-      d="M12 15.6V8.4v7.2Zm0-7.2c1.4912 0 2.7-1.2088 2.7-2.7S13.4912 3 12 3 9.3 4.2088 9.3 5.7s1.2088 2.7 2.7 2.7Z"
-    />
     <path
       stroke="currentColor"
       strokeLinecap="round"

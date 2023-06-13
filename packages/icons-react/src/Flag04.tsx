@@ -3,16 +3,10 @@ import { SVGProps } from 'react';
 const Flag04 = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
-    <path
-      fill="#fff"
-      fillOpacity={0.01}
-      d="M3 4.1c0-.56 0-.84.109-1.054a1.0001 1.0001 0 0 1 .437-.437C3.76 2.5 4.04 2.5 4.6 2.5h7.3c.5601 0 .8401 0 1.054.109a1 1 0 0 1 .437.437c.109.214.109.494.109 1.054v5.3c0 .56 0 .8401-.109 1.054a.9998.9998 0 0 1-.437.437C12.7401 11 12.4601 11 11.9 11H3V4.1Z"
-    />
     <path
       stroke="currentColor"
       strokeLinecap="round"

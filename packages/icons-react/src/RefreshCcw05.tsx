@@ -3,16 +3,10 @@ import { SVGProps } from 'react';
 const RefreshCcw05 = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
-    <path
-      fill="#fff"
-      fillOpacity={0.01}
-      d="m2.4934 16.3338 2.732.7321.7321-2.7321m12.0851-4.6679.7321-2.732 2.732.732"
-    />
     <path
       stroke="currentColor"
       strokeLinecap="round"

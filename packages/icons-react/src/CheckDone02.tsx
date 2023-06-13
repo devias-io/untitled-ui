@@ -3,16 +3,10 @@ import { SVGProps } from 'react';
 const CheckDone02 = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
-    <path
-      fill="#fff"
-      fillOpacity={0.01}
-      d="M8.4 11.28c0-1.0081 0-1.5121.1962-1.8972a1.8 1.8 0 0 1 .7866-.7866C9.7678 8.4 10.272 8.4 11.28 8.4h6.84c1.0081 0 1.5121 0 1.8972.1962a1.8 1.8 0 0 1 .7866.7866C21 9.7678 21 10.272 21 11.28v6.84c0 1.0081 0 1.5121-.1962 1.8972a1.8 1.8 0 0 1-.7866.7866C19.6321 21 19.1281 21 18.12 21h-6.84c-1.0081 0-1.5121 0-1.8972-.1962a1.8 1.8 0 0 1-.7866-.7866C8.4 19.6321 8.4 19.1281 8.4 18.12v-6.84Z"
-    />
     <path
       stroke="currentColor"
       strokeLinecap="round"

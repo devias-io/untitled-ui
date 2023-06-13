@@ -3,16 +3,10 @@ import { SVGProps } from 'react';
 const CodeSnippet02 = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
-    <path
-      fill="#fff"
-      fillOpacity={0.01}
-      d="m16.5 15.6 4.5-4.5-4.5-4.5m-9 0L3 11.1l4.5 4.5"
-    />
     <path
       stroke="currentColor"
       strokeLinecap="round"

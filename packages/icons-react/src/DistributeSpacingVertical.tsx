@@ -3,16 +3,10 @@ import { SVGProps } from 'react';
 const DistributeSpacingVertical = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
-    <path
-      fill="#fff"
-      fillOpacity={0.01}
-      d="M16 15c.9319 0 1.3978 0 1.7654-.1522.49-.203.8794-.5924 1.0824-1.0824C19 13.3978 19 12.9319 19 12c0-.9319 0-1.3978-.1522-1.7654a2.0003 2.0003 0 0 0-1.0824-1.0824C17.3978 9 16.9319 9 16 9H8c-.9319 0-1.3978 0-1.7654.1522a2 2 0 0 0-1.0824 1.0824C5 10.6022 5 11.0681 5 12c0 .9319 0 1.3978.1522 1.7654.203.49.5924.8794 1.0824 1.0824C6.6022 15 7.0681 15 8 15h8Z"
-    />
     <path
       stroke="currentColor"
       strokeLinecap="round"

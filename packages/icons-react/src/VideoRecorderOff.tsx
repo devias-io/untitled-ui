@@ -3,16 +3,10 @@ import { SVGProps } from 'react';
 const VideoRecorderOff = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
-    <path
-      fill="#fff"
-      fillOpacity={0.01}
-      d="M21 8.2382c0-.5452 0-.8178-.1078-.944a.4501.4501 0 0 0-.3775-.1564c-.1655.013-.3583.2058-.7438.5913L16.5 11l3.2709 3.2709c.3855.3855.5783.5783.7438.5913a.4501.4501 0 0 0 .3775-.1563C21 14.5796 21 14.307 21 13.7618V8.2382Z"
-    />
     <path
       stroke="currentColor"
       strokeLinecap="round"

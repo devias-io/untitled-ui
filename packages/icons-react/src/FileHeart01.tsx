@@ -3,18 +3,10 @@ import { SVGProps } from 'react';
 const FileHeart01 = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
-    <path
-      fill="#fff"
-      fillOpacity={0.01}
-      fillRule="evenodd"
-      d="M15.6975 14.5475c-.7197-.8181-1.92-1.0381-2.8218-.289-.9018.7491-1.0288 2.0016-.3206 2.8876.7082.886 3.1424 2.9539 3.1424 2.9539s2.4343-2.0679 3.1425-2.9539c.7082-.886.5967-2.1463-.3206-2.8876-.9173-.7412-2.1021-.5291-2.8219.289Z"
-      clipRule="evenodd"
-    />
     <path
       stroke="currentColor"
       strokeLinecap="round"

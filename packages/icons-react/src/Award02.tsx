@@ -3,16 +3,10 @@ import { SVGProps } from 'react';
 const Award02 = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
-    <path
-      fill="#fff"
-      fillOpacity={0.01}
-      d="M11.25 16.5c3.7279 0 6.75-3.0221 6.75-6.75C18 6.022 14.9779 3 11.25 3 7.522 3 4.5 6.022 4.5 9.75c0 3.7279 3.022 6.75 6.75 6.75Z"
-    />
     <path
       stroke="currentColor"
       strokeLinecap="round"

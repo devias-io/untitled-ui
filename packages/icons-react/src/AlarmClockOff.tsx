@@ -3,16 +3,10 @@ import { SVGProps } from 'react';
 const AlarmClockOff = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
-    <path
-      fill="#fff"
-      fillOpacity={0.01}
-      d="M21 5.7 18.3 3 21 5.7ZM6.6 17.4l-1.8 1.8 1.8-1.8Z"
-    />
     <path
       stroke="currentColor"
       strokeLinecap="round"

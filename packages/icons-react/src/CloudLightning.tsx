@@ -3,12 +3,10 @@ import { SVGProps } from 'react';
 const CloudLightning = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
-    <path fill="#fff" fillOpacity={0.01} d="m12.9 9.2-3.6 5.4h5.4L11.1 20" />
     <path
       stroke="currentColor"
       strokeLinecap="round"

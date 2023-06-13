@@ -3,16 +3,10 @@ import { SVGProps } from 'react';
 const LockUnlocked01 = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
-    <path
-      fill="#fff"
-      fillOpacity={0.01}
-      d="M4 14.8c0-1.6802 0-2.5202.327-3.162a2.9997 2.9997 0 0 1 1.311-1.311C6.2798 10 7.1198 10 8.8 10h6.4c1.6802 0 2.5202 0 3.162.327a2.9994 2.9994 0 0 1 1.311 1.311C20 12.2798 20 13.1198 20 14.8v1.4c0 1.6802 0 2.5202-.327 3.162a2.9994 2.9994 0 0 1-1.311 1.311C17.7202 21 16.8802 21 15.2 21H8.8c-1.6802 0-2.5202 0-3.162-.327a2.9997 2.9997 0 0 1-1.311-1.311C4 18.7202 4 17.8802 4 16.2v-1.4Z"
-    />
     <path
       stroke="currentColor"
       strokeLinecap="round"

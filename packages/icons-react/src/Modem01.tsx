@@ -3,16 +3,10 @@ import { SVGProps } from 'react';
 const Modem01 = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
-    <path
-      fill="#fff"
-      fillOpacity={0.01}
-      d="M2 19c0-.9319 0-1.3978.1522-1.7654.203-.49.5923-.8794 1.0824-1.0824C3.6022 16 4.0681 16 5 16h14c.9319 0 1.3978 0 1.7653.1522.4901.203.8794.5924 1.0824 1.0824C22 17.6022 22 18.0681 22 19c0 .9319 0 1.3978-.1523 1.7654-.203.49-.5923.8794-1.0824 1.0824C20.3978 22 19.9319 22 19 22H5c-.932 0-1.3979 0-1.7654-.1522a2.0002 2.0002 0 0 1-1.0824-1.0824C2 20.3978 2 19.9319 2 19Z"
-    />
     <path
       stroke="currentColor"
       strokeLinecap="round"

@@ -3,16 +3,10 @@ import { SVGProps } from 'react';
 const FileQuestion01 = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
-    <path
-      fill="#fff"
-      fillOpacity={0.01}
-      d="M15.25 14.702a2.0234 2.0234 0 0 1 3.9323.6745c0 1.349-2.0235 2.0235-2.0235 2.0235"
-    />
     <path
       stroke="currentColor"
       strokeLinecap="round"

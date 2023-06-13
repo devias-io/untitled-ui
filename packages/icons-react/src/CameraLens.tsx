@@ -3,21 +3,10 @@ import { SVGProps } from 'react';
 const CameraLens = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
-    <path
-      fill="#fff"
-      fillOpacity={0.01}
-      d="M19.071 4.929c3.9053 3.9052 3.9053 10.2368 0 14.142-3.9052 3.9053-10.2368 3.9053-14.142 0-3.9053-3.9052-3.9053-10.2368 0-14.142 3.9052-3.9053 10.2368-3.9053 14.142 0Z"
-    />
-    <path
-      fill="#fff"
-      fillOpacity={0.01}
-      d="M14.8284 9.1716c1.5621 1.5621 1.5621 4.0947 0 5.6568s-4.0947 1.5621-5.6568 0-1.5621-4.0947 0-5.6568 4.0947-1.5621 5.6568 0Z"
-    />
     <path
       stroke="currentColor"
       strokeLinecap="round"

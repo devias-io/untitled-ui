@@ -3,16 +3,10 @@ import { SVGProps } from 'react';
 const CreditCardEdit = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
-    <path
-      fill="#fff"
-      fillOpacity={0.01}
-      d="M14.6145 17.5775c.0318-.1589.0477-.2383.0767-.3124a.8989.8989 0 0 1 .0997-.1862c.0455-.0653.1028-.1226.2174-.2372L18.75 13.1c.4971-.4971 1.3029-.4971 1.8 0 .4971.4971.4971 1.3029 0 1.8l-3.7417 3.7417c-.1146.1146-.1719.1719-.2372.2174a.8989.8989 0 0 1-.1862.0997c-.0741.029-.1535.0449-.3124.0767L14.25 19.4l.3645-1.8225Z"
-    />
     <path
       stroke="currentColor"
       strokeLinecap="round"

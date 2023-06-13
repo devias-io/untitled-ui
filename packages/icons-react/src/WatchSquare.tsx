@@ -3,17 +3,10 @@ import { SVGProps } from 'react';
 const WatchSquare = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
-    <path fill="#fff" fillOpacity={0.01} d="M11.35 9.3V12l1.35 1.35" />
-    <path
-      fill="#fff"
-      fillOpacity={0.01}
-      d="M5.5 9.03c0-1.008 0-1.5121.1962-1.8972a1.8 1.8 0 0 1 .7866-.7866C6.8678 6.15 7.372 6.15 8.38 6.15h5.94c1.0081 0 1.5121 0 1.8972.1962a1.8 1.8 0 0 1 .7866.7866c.1962.385.1962.8891.1962 1.8972v5.94c0 1.0081 0 1.5121-.1962 1.8972a1.8 1.8 0 0 1-.7866.7866c-.3851.1962-.8891.1962-1.8972.1962H8.38c-1.008 0-1.5121 0-1.8972-.1962a1.8 1.8 0 0 1-.7866-.7866C5.5 16.4821 5.5 15.9781 5.5 14.97V9.03Z"
-    />
     <path
       stroke="currentColor"
       strokeLinecap="round"

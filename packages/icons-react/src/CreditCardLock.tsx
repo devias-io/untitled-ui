@@ -3,16 +3,10 @@ import { SVGProps } from 'react';
 const CreditCardLock = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
-    <path
-      fill="#fff"
-      fillOpacity={0.01}
-      d="M14.7 17.69c0-.504 0-.7561.0981-.9486a.9006.9006 0 0 1 .3933-.3933c.1925-.0981.4446-.0981.9486-.0981h3.42c.504 0 .7561 0 .9486.0981a.9006.9006 0 0 1 .3933.3933C21 16.9339 21 17.186 21 17.69v.72c0 .504 0 .7561-.0981.9486a.9006.9006 0 0 1-.3933.3933c-.1925.0981-.4446.0981-.9486.0981h-3.42c-.504 0-.7561 0-.9486-.0981a.9006.9006 0 0 1-.3933-.3933C14.7 19.1661 14.7 18.914 14.7 18.41v-.72Z"
-    />
     <path
       stroke="currentColor"
       strokeLinecap="round"

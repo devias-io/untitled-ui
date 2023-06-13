@@ -3,16 +3,10 @@ import { SVGProps } from 'react';
 const Wallet04 = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
-    <path
-      fill="#fff"
-      fillOpacity={0.01}
-      d="M18.75 13.45c.4182 0 .6273 0 .8012-.0346a1.8 1.8 0 0 0 1.4142-1.4142C21 11.8273 21 11.6182 21 11.2s0-.6273-.0346-.8012a1.8 1.8 0 0 0-1.4142-1.4142c-.1739-.0346-.383-.0346-.8012-.0346h-1.8c-.4182 0-.6273 0-.8012.0346a1.8 1.8 0 0 0-1.4142 1.4142c-.0346.1739-.0346.383-.0346.8012s0 .6273.0346.8012a1.8 1.8 0 0 0 1.4142 1.4142c.1739.0346.383.0346.8012.0346h1.8Z"
-    />
     <path
       stroke="currentColor"
       strokeLinecap="round"

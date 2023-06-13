@@ -14,7 +14,7 @@ export const svgoConfig = {
     { name: 'removeEmptyAttrs' },
     { name: 'removeHiddenElems' },
     { name: 'removeEmptyText' },
-    { name: 'removeViewBox' },
+    { name: 'removeDimensions' },
     { name: 'cleanupEnableBackground' },
     { name: 'minifyStyles' },
     { name: 'convertStyleToAttrs' },

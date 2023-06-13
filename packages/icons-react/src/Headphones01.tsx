@@ -3,16 +3,10 @@ import { SVGProps } from 'react';
 const Headphones01 = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
-    <path
-      fill="#fff"
-      fillOpacity={0.01}
-      d="M3 16.5C3 15.1193 4.1193 14 5.5 14S8 15.1193 8 16.5v2C8 19.8807 6.8807 21 5.5 21S3 19.8807 3 18.5v-2Zm13 0c0-1.3807 1.1193-2.5 2.5-2.5s2.5 1.1193 2.5 2.5v2c0 1.3807-1.1193 2.5-2.5 2.5S16 19.8807 16 18.5v-2Z"
-    />
     <path
       stroke="currentColor"
       strokeLinecap="round"

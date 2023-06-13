@@ -3,16 +3,10 @@ import { SVGProps } from 'react';
 const ArrowsTriangle = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
-    <path
-      fill="#fff"
-      fillOpacity={0.01}
-      d="m18 5-1.0981 4.0981-4.0981-1.098M2 11.5981 6.098 10.5l1.0982 4.0981M15.5 22l-3-3 3-3"
-    />
     <path
       stroke="currentColor"
       strokeLinecap="round"

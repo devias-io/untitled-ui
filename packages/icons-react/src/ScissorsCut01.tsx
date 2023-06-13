@@ -3,16 +3,10 @@ import { SVGProps } from 'react';
 const ScissorsCut01 = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
-    <path
-      fill="#fff"
-      fillOpacity={0.01}
-      d="M9 6c0-1.6569-1.3431-3-3-3S3 4.3431 3 6s1.3431 3 3 3 3-1.3431 3-3Zm0 12c0-1.6569-1.3431-3-3-3s-3 1.3431-3 3 1.3431 3 3 3 3-1.3431 3-3Z"
-    />
     <path
       stroke="currentColor"
       strokeLinecap="round"

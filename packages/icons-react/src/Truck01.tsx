@@ -3,16 +3,10 @@ import { SVGProps } from 'react';
 const Truck01 = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
-    <path
-      fill="#fff"
-      fillOpacity={0.01}
-      d="M7.5 18.4c1.4912 0 2.7-1.2088 2.7-2.7S8.9912 13 7.5 13s-2.7 1.2088-2.7 2.7 1.2088 2.7 2.7 2.7Zm9.9 0c1.2426 0 2.25-1.0074 2.25-2.25s-1.0074-2.25-2.25-2.25-2.25 1.0074-2.25 2.25 1.0074 2.25 2.25 2.25Z"
-    />
     <path
       stroke="currentColor"
       strokeLinecap="round"

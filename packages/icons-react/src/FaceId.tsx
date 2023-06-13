@@ -3,16 +3,10 @@ import { SVGProps } from 'react';
 const FaceId = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
-    <path
-      fill="#fff"
-      fillOpacity={0.01}
-      d="M7.5 8v1.5V8Zm9 0v1.5V8ZM11 12.6001c.8 0 1.5-.7 1.5-1.5V8m2.7002 7.2c-1.8 1.8-4.7 1.8-6.5 0h6.5Z"
-    />
     <path
       stroke="currentColor"
       strokeLinecap="round"

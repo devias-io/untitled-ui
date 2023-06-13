@@ -3,16 +3,10 @@ import { SVGProps } from 'react';
 const CloudSun02 = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
-    <path
-      fill="#fff"
-      fillOpacity={0.01}
-      d="M6.6 19.95c-1.9882 0-3.6-1.6118-3.6-3.6 0-1.9882 1.6118-3.6 3.6-3.6.4178 0 .819.0712 1.192.202.6446-1.6964 2.2855-2.902 4.208-2.902 1.9225 0 3.5635 1.2056 4.208 2.902a3.5961 3.5961 0 0 1 1.192-.202c1.9882 0 3.6 1.6118 3.6 3.6 0 1.9882-1.6118 3.6-3.6 3.6H6.6Z"
-    />
     <path
       stroke="currentColor"
       strokeLinecap="round"

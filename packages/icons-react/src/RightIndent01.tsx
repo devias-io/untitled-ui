@@ -3,16 +3,10 @@ import { SVGProps } from 'react';
 const RightIndent01 = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
-    <path
-      fill="#fff"
-      fillOpacity={0.01}
-      d="M21 14.9c0 .515 0 .7725-.1063.9082a.5.5 0 0 1-.3833.1917c-.1724.0036-.3784-.1509-.7904-.4599l-3.8667-2.9c-.2895-.2171-.4342-.3257-.486-.4588a.5002.5002 0 0 1 0-.3624c.0518-.1331.1965-.2417.486-.4588l3.8667-2.9c.412-.309.618-.4635.7904-.4599a.5.5 0 0 1 .3833.1917C21 8.3275 21 8.585 21 9.1v5.8Z"
-    />
     <path
       stroke="currentColor"
       strokeLinecap="round"

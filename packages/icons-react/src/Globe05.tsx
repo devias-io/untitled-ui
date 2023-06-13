@@ -3,21 +3,10 @@ import { SVGProps } from 'react';
 const Globe05 = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
-    <path
-      fill="#fff"
-      fillOpacity={0.01}
-      d="M16.5 11c1.8-1.8 3.6-3.4118 3.6-5.4 0-1.9882-1.6118-3.6-3.6-3.6-1.9882 0-3.6 1.6118-3.6 3.6 0 1.9882 1.8 3.6 3.6 5.4Z"
-    />
-    <path
-      fill="#fff"
-      fillOpacity={0.01}
-      d="M16.725 5.375a.225.225 0 1 1-.45 0 .225.225 0 0 1 .45 0Z"
-    />
     <path
       stroke="currentColor"
       strokeLinecap="round"

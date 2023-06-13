@@ -3,17 +3,10 @@ import { SVGProps } from 'react';
 const LineChartUp02 = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
-    <path
-      fill="#fff"
-      fillOpacity={0.01}
-      d="m21 7-5.4343 5.4343c-.198.198-.297.297-.4112.3341a.499.499 0 0 1-.309 0c-.1142-.0371-.2132-.1361-.4112-.3341l-1.8686-1.8686c-.198-.198-.297-.297-.4112-.3341a.499.499 0 0 0-.309 0c-.1142.0371-.2132.1361-.4112.3341L7 15"
-    />
-    <path fill="#fff" fillOpacity={0.01} d="M17 7h4v4" />
     <path
       stroke="currentColor"
       strokeLinecap="round"

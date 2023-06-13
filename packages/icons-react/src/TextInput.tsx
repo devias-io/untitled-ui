@@ -3,16 +3,10 @@ import { SVGProps } from 'react';
 const TextInput = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
-    <path
-      fill="#fff"
-      fillOpacity={0.01}
-      d="M18.12 6.6H16.5v9h1.62c1.0081 0 1.5121 0 1.8972-.1962a1.8 1.8 0 0 0 .7866-.7866C21 14.2321 21 13.7281 21 12.72V9.48c0-1.008 0-1.5121-.1962-1.8972a1.8 1.8 0 0 0-.7866-.7866C19.6321 6.6 19.1281 6.6 18.12 6.6Z"
-    />
     <path
       stroke="currentColor"
       strokeLinecap="round"

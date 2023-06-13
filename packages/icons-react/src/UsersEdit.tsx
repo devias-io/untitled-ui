@@ -3,16 +3,10 @@ import { SVGProps } from 'react';
 const UsersEdit = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
-    <path
-      fill="#fff"
-      fillOpacity={0.01}
-      d="M12.405 19.475c.0353-.1766.053-.2648.0852-.3472a1.0012 1.0012 0 0 1 .1108-.2068c.0506-.0726.1142-.1362.2415-.2635L19.5 12c.5523-.5523 1.4477-.5523 2 0s.5524 1.4477 0 2l-6.6574 6.6574c-.1274.1274-.191.191-.2636.2416a.9943.9943 0 0 1-.2069.1107c-.0823.0323-.1706.05-.3471.0853l-2.0251.405.4051-2.025ZM9.5 11c2.2091 0 4-1.7909 4-4 0-2.2091-1.7909-4-4-4-2.2091 0-4 1.7909-4 4 0 2.2091 1.7909 4 4 4Z"
-    />
     <path
       stroke="currentColor"
       strokeLinecap="round"

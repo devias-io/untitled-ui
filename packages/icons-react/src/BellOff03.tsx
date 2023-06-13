@@ -3,16 +3,10 @@ import { SVGProps } from 'react';
 const BellOff03 = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
-    <path
-      fill="#fff"
-      fillOpacity={0.01}
-      d="M12.7169 6.8147A2.2427 2.2427 0 0 0 13.35 5.25C13.35 4.0074 12.3426 3 11.1 3S8.85 4.0074 8.85 5.25c0 .3037.0602.5933.1692.8576.0551.1335.0826.2003.2086.3268.0907.0911.2778.1999.4018.2336.1723.0469.344.025.6874-.0186A6.2179 6.2179 0 0 1 11.1 6.6c.5535 0 1.0983.0737 1.6169.2147Z"
-    />
     <path
       stroke="currentColor"
       strokeLinecap="round"

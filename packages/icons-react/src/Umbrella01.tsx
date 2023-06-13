@@ -3,16 +3,10 @@ import { SVGProps } from 'react';
 const Umbrella01 = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
-    <path
-      fill="#fff"
-      fillOpacity={0.01}
-      d="M11.0052 3c-4.4824 0-8.1994 3.2768-8.8863 7.5656-.067.4186-.1006.6279-.0164.8515.067.1779.231.3702.396.4644.2074.1185.4538.1185.9467.1185h15.12c.4929 0 .7393 0 .9468-.1185.165-.0942.329-.2865.3959-.4644.0842-.2236.0507-.4329-.0164-.8515C19.2047 6.2768 15.4876 3 11.0052 3Z"
-    />
     <path
       stroke="currentColor"
       strokeLinecap="round"
