@@ -8,6 +8,7 @@ const SwitchVertical01 = (props: SVGProps<SVGSVGElement>) => (
     fill="none"
     {...props}
   >
+    <path fill="#fff" fillOpacity={0.01} d="m13 16 4 4 4-4M3 8l4-4 4 4" />
     <path
       stroke="currentColor"
       strokeLinecap="round"

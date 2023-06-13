@@ -9,6 +9,11 @@ const ArrowsTriangle = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
+      fill="#fff"
+      fillOpacity={0.01}
+      d="m18 5-1.0981 4.0981-4.0981-1.098M2 11.5981 6.098 10.5l1.0982 4.0981M15.5 22l-3-3 3-3"
+    />
+    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"

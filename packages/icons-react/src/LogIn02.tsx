@@ -8,6 +8,7 @@ const LogIn02 = (props: SVGProps<SVGSVGElement>) => (
     fill="none"
     {...props}
   >
+    <path fill="#fff" fillOpacity={0.01} d="m12 8 4 4-4 4" />
     <path
       stroke="currentColor"
       strokeLinecap="round"

@@ -8,6 +8,7 @@ const Trash02 = (props: SVGProps<SVGSVGElement>) => (
     fill="none"
     {...props}
   >
+    <path fill="#fff" fillOpacity={0.01} d="M3 6.6h16.2H3Z" />
     <path
       stroke="currentColor"
       strokeLinecap="round"

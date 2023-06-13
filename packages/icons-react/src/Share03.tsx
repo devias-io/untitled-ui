@@ -8,6 +8,7 @@ const Share03 = (props: SVGProps<SVGSVGElement>) => (
     fill="none"
     {...props}
   >
+    <path fill="#fff" fillOpacity={0.01} d="M21 9V3h-6" />
     <path
       stroke="currentColor"
       strokeLinecap="round"

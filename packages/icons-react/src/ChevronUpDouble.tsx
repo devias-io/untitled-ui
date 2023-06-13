@@ -8,6 +8,7 @@ const ChevronUpDouble = (props: SVGProps<SVGSVGElement>) => (
     fill="none"
     {...props}
   >
+    <path fill="#fff" fillOpacity={0.01} d="m17 18-5-5-5 5m10-7-5-5-5 5" />
     <path
       stroke="currentColor"
       strokeLinecap="round"

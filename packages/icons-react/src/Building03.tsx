@@ -9,6 +9,11 @@ const Building03 = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
+      fill="#fff"
+      fillOpacity={0.01}
+      d="M16.32 3H7.68c-1.008 0-1.5121 0-1.8972.1962a1.8 1.8 0 0 0-.7866.7866C4.8 4.3678 4.8 4.872 4.8 5.88V19.2h14.4V5.88c0-1.008 0-1.5121-.1962-1.8972a1.8 1.8 0 0 0-.7866-.7866C17.8321 3 17.3281 3 16.32 3Z"
+    />
+    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"

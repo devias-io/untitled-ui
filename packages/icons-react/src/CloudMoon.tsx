@@ -9,6 +9,11 @@ const CloudMoon = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
+      fill="#fff"
+      fillOpacity={0.01}
+      d="M6.6 20.0164c-1.9882 0-3.6-1.6118-3.6-3.6 0-1.7801 1.292-3.2584 2.9893-3.5485.7266-2.1242 2.7403-3.6515 5.1107-3.6515 2.0594 0 3.8495 1.1528 4.7603 2.8483a4.0508 4.0508 0 0 1 1.0897-.1483c2.2368 0 4.05 1.8132 4.05 4.05 0 2.2367-1.8132 4.05-4.05 4.05H6.6Z"
+    />
+    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"

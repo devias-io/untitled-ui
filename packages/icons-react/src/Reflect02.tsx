@@ -9,6 +9,11 @@ const Reflect02 = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
+      fill="#fff"
+      fillOpacity={0.01}
+      d="m18.75 14.7-3.6-3.6 3.6-3.6m-13.5 7.2 3.6-3.6-3.6-3.6"
+    />
+    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"

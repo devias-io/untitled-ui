@@ -9,6 +9,11 @@ const Image05 = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
+      fill="#fff"
+      fillOpacity={0.01}
+      d="M18 9c1.6569 0 3-1.3431 3-3s-1.3431-3-3-3c-1.6568 0-3 1.3431-3 3s1.3432 3 3 3Zm-9.3155.9002-5.9463 8.5891c-.563.8132-.8445 1.2199-.8285 1.558a.9998.9998 0 0 0 .3914.747C2.57 21 3.0646 21 4.0537 21H19L11.3155 9.9002c-.4419-.6384-.6629-.9576-.9389-1.0698a1 1 0 0 0-.7532 0c-.276.1122-.497.4314-.9389 1.0698Z"
+    />
+    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"

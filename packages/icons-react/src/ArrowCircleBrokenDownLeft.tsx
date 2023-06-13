@@ -8,6 +8,7 @@ const ArrowCircleBrokenDownLeft = (props: SVGProps<SVGSVGElement>) => (
     fill="none"
     {...props}
   >
+    <path fill="#fff" fillOpacity={0.01} d="M9.3002 8.3v5.4001h5.4" />
     <path
       stroke="currentColor"
       strokeLinecap="round"

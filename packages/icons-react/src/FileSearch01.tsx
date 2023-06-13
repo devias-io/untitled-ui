@@ -9,6 +9,11 @@ const FileSearch01 = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
+      fill="#fff"
+      fillOpacity={0.01}
+      d="M16.6 20.55c1.7397 0 3.15-1.4103 3.15-3.15 0-1.7397-1.4103-3.15-3.15-3.15-1.7397 0-3.15 1.4103-3.15 3.15 0 1.7397 1.4103 3.15 3.15 3.15Z"
+    />
+    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"

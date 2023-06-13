@@ -9,6 +9,11 @@ const RefreshCcw05 = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
+      fill="#fff"
+      fillOpacity={0.01}
+      d="m2.4934 16.3338 2.732.7321.7321-2.7321m12.0851-4.6679.7321-2.732 2.732.732"
+    />
+    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"

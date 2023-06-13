@@ -9,6 +9,11 @@ const Link05 = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
+      fill="#fff"
+      fillOpacity={0.01}
+      d="M16.5 16h-1.1a.7.7 0 0 1-.7-.7V7.7a.7.7 0 0 1 .7-.7h1.1c2.4853 0 4.5 2.0147 4.5 4.5S18.9853 16 16.5 16Z"
+    />
+    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"

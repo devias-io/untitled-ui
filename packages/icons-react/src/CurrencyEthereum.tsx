@@ -9,6 +9,12 @@ const CurrencyEthereum = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
+      fill="#fff"
+      fillOpacity={0.01}
+      d="m5.35 14.7 5.8501 6.3 5.8499-6.3-5.85 1.35-5.85-1.35ZM4 11.1001 11.2 12.9l7.2-1.8L11.2 3 4 11.1001ZM11.2 3v6.3V3Z"
+    />
+    <path fill="#fff" fillOpacity={0.01} d="m4 11.1001 7.2-1.8L18.4 11.1" />
+    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"

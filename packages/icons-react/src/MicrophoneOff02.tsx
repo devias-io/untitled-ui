@@ -9,6 +9,11 @@ const MicrophoneOff02 = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
+      fill="#fff"
+      fillOpacity={0.01}
+      d="M8.4 11.9c0 1.9882 1.6118 3.6 3.6 3.6 1.2225 0 2.3026-.6093 2.9533-1.5408L8.4 7.4v4.5Z"
+    />
+    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"

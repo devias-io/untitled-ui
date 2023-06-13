@@ -8,6 +8,7 @@ const ArrowsUp = (props: SVGProps<SVGSVGElement>) => (
     fill="none"
     {...props}
   >
+    <path fill="#fff" fillOpacity={0.01} d="m3 8 4-4 4 4m2 5 4-4 4 4" />
     <path
       stroke="currentColor"
       strokeLinecap="round"

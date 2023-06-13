@@ -9,6 +9,16 @@ const Award05 = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
+      fill="#fff"
+      fillOpacity={0.01}
+      d="M15.2074 11.0134c2.2845 2.2846 2.2845 5.9886 0 8.2732-2.2846 2.2845-5.9886 2.2845-8.2732 0-2.2845-2.2846-2.2845-5.9886 0-8.2732 2.2846-2.2845 5.9886-2.2845 8.2732 0Z"
+    />
+    <path
+      fill="#fff"
+      fillOpacity={0.01}
+      d="m9.7208 13.8 1.35-.9v4.5m-1.125 0h2.25-2.25Z"
+    />
+    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"

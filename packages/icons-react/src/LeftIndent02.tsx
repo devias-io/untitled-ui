@@ -9,6 +9,11 @@ const LeftIndent02 = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
+      fill="#fff"
+      fillOpacity={0.01}
+      d="M3 9.4c0 .515 0 .7724.1063.9082a.4998.4998 0 0 0 .3833.1916c.1724.0036.3784-.1509.7904-.4598l3.8667-2.9c.2895-.2172.4342-.3257.486-.4588a.5.5 0 0 0 0-.3625c-.0518-.133-.1965-.2416-.486-.4587L4.28 2.96c-.412-.309-.618-.4635-.7904-.46a.5.5 0 0 0-.3833.1917C3 2.8275 3 3.085 3 3.6v5.8Z"
+    />
+    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"

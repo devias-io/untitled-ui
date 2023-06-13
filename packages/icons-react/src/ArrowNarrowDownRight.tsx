@@ -8,6 +8,7 @@ const ArrowNarrowDownRight = (props: SVGProps<SVGSVGElement>) => (
     fill="none"
     {...props}
   >
+    <path fill="#fff" fillOpacity={0.01} d="M18 10v8h-8" />
     <path
       stroke="currentColor"
       strokeLinecap="round"

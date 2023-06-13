@@ -8,6 +8,7 @@ const ReverseLeft = (props: SVGProps<SVGSVGElement>) => (
     fill="none"
     {...props}
   >
+    <path fill="#fff" fillOpacity={0.01} d="M8 3 4 7l4 4" />
     <path
       stroke="currentColor"
       strokeLinecap="round"

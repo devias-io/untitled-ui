@@ -9,6 +9,11 @@ const CreditCardRefresh = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
+      fill="#fff"
+      fillOpacity={0.01}
+      d="m12.9 19.2-1.8-1.8 1.8-1.8m-1.8-9 1.8-1.8L11.1 3"
+    />
+    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"

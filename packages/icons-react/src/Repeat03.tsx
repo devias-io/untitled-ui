@@ -9,6 +9,11 @@ const Repeat03 = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
+      fill="#fff"
+      fillOpacity={0.01}
+      d="m12.9 20-2.7-2.7 2.7-2.7M11.1 2l2.7 2.7-2.7 2.7"
+    />
+    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"

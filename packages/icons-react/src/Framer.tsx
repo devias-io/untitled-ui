@@ -8,6 +8,7 @@ const Framer = (props: SVGProps<SVGSVGElement>) => (
     fill="none"
     {...props}
   >
+    <path fill="#fff" fillOpacity={0.01} d="M5 1.5h14v7h-7l7 7H5v-7h7l-7-7Z" />
     <path
       stroke="currentColor"
       strokeLinecap="round"

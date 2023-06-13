@@ -8,6 +8,7 @@ const LogOut02 = (props: SVGProps<SVGSVGElement>) => (
     fill="none"
     {...props}
   >
+    <path fill="#fff" fillOpacity={0.01} d="m16 17 5-5-5-5" />
     <path
       stroke="currentColor"
       strokeLinecap="round"

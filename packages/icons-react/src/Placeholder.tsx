@@ -7,6 +7,16 @@ const Placeholder = (props: SVGProps<SVGSVGElement>) => (
     height={24}
     fill="none"
     {...props}
-  ></svg>
+  >
+    <path
+      fill="#fff"
+      fillOpacity={0.01}
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2}
+      d="M12 21c4.9706 0 9-4.0294 9-9s-4.0294-9-9-9-9 4.0294-9 9 4.0294 9 9 9Z"
+    />
+  </svg>
 );
 export default Placeholder;

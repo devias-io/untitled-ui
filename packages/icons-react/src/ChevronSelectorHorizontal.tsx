@@ -8,6 +8,7 @@ const ChevronSelectorHorizontal = (props: SVGProps<SVGSVGElement>) => (
     fill="none"
     {...props}
   >
+    <path fill="#fff" fillOpacity={0.01} d="m9 7-5 5 5 5m6-10 5 5-5 5" />
     <path
       stroke="currentColor"
       strokeLinecap="round"

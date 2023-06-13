@@ -9,6 +9,11 @@ const Headphones02 = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
+      fill="#fff"
+      fillOpacity={0.01}
+      d="M5.7 14.25C5.7 13.0074 6.7074 12 7.95 12s2.25 1.0074 2.25 2.25v2.7c0 1.2426-1.0074 2.25-2.25 2.25S5.7 18.1926 5.7 16.95v-2.7Zm8.1 0c0-1.2426 1.0074-2.25 2.25-2.25s2.25 1.0074 2.25 2.25v2.7c0 1.2426-1.0074 2.25-2.25 2.25s-2.25-1.0074-2.25-2.25v-2.7Z"
+    />
+    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"

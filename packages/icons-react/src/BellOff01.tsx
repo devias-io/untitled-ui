@@ -9,6 +9,11 @@ const BellOff01 = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
+      fill="#fff"
+      fillOpacity={0.01}
+      d="M4.2147 14.3449C4.9984 13.0854 5.7 11.1812 5.7 8.4c0-.536.0797-1.0638.2325-1.5675L15.6 16.5H5.15c-1.0767 0-1.615 0-1.7344-.0886-.1322-.0981-.167-.1606-.1804-.3247-.0121-.1482.3184-.6794.9795-1.7418Z"
+    />
+    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"

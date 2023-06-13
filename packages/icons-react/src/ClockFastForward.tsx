@@ -9,6 +9,11 @@ const ClockFastForward = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
+      fill="#fff"
+      fillOpacity={0.01}
+      d="m22.7 11.5-1.9995 2-2.0005-2M12 7v5l3 2"
+    />
+    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"

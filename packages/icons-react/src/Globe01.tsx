@@ -9,6 +9,11 @@ const Globe01 = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
+      fill="#fff"
+      fillOpacity={0.01}
+      d="M10.4999 17.9999c4.1422 0 7.5-3.3579 7.5-7.5s-3.3578-7.5-7.5-7.5c-4.1421 0-7.5 3.3579-7.5 7.5s3.3579 7.5 7.5 7.5Z"
+    />
+    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"

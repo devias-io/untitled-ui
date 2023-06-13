@@ -9,6 +9,11 @@ const CurrencyDollar = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
+      fill="#fff"
+      fillOpacity={0.01}
+      d="M9.6 4.8h1.8V12h1.8c1.9882 0 3.6 1.6118 3.6 3.6 0 1.9882-1.6118 3.6-3.6 3.6h-1.8V12H9.6C7.6118 12 6 10.3882 6 8.4c0-1.9882 1.6118-3.6 3.6-3.6Z"
+    />
+    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"

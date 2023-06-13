@@ -8,6 +8,7 @@ const Terminal = (props: SVGProps<SVGSVGElement>) => (
     fill="none"
     {...props}
   >
+    <path fill="#fff" fillOpacity={0.01} d="m4 17 6-6-6-6" />
     <path
       stroke="currentColor"
       strokeLinecap="round"

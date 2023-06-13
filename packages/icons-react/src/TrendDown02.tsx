@@ -8,6 +8,7 @@ const TrendDown02 = (props: SVGProps<SVGSVGElement>) => (
     fill="none"
     {...props}
   >
+    <path fill="#fff" fillOpacity={0.01} d="M17 7v10H7" />
     <path
       stroke="currentColor"
       strokeLinecap="round"

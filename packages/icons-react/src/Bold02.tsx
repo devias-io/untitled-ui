@@ -9,6 +9,11 @@ const Bold02 = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
+      fill="#fff"
+      fillOpacity={0.01}
+      d="M6 20V4h9.5c2.2091 0 4 1.7909 4 4 0 2.2091-1.7909 4-4 4h1c2.2091 0 4 1.7909 4 4 0 2.2091-1.7909 4-4 4H6Z"
+    />
+    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"

@@ -9,6 +9,11 @@ const Route = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
+      fill="#fff"
+      fillOpacity={0.01}
+      d="M5.7 7.4c1.4912 0 2.7-1.2088 2.7-2.7S7.1912 2 5.7 2 3 3.2088 3 4.7s1.2088 2.7 2.7 2.7ZM18.3 20c1.4912 0 2.7-1.2088 2.7-2.7s-1.2088-2.7-2.7-2.7-2.7 1.2088-2.7 2.7 1.2088 2.7 2.7 2.7Z"
+    />
+    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"

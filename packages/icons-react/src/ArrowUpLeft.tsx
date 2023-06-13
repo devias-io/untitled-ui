@@ -8,6 +8,7 @@ const ArrowUpLeft = (props: SVGProps<SVGSVGElement>) => (
     fill="none"
     {...props}
   >
+    <path fill="#fff" fillOpacity={0.01} d="M7 17V7h10" />
     <path
       stroke="currentColor"
       strokeLinecap="round"

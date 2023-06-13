@@ -9,6 +9,12 @@ const TerminalCircle = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
+      fill="#fff"
+      fillOpacity={0.01}
+      d="M12 20c4.9706 0 9-4.0294 9-9s-4.0294-9-9-9-9 4.0294-9 9 4.0294 9 9 9Z"
+    />
+    <path fill="#fff" fillOpacity={0.01} d="m7.5 13.7 2.7-2.7-2.7-2.7" />
+    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"

@@ -8,6 +8,7 @@ const Sunrise = (props: SVGProps<SVGSVGElement>) => (
     fill="none"
     {...props}
   >
+    <path fill="#fff" fillOpacity={0.01} d="M15.6 5.6 12 2 8.4 5.6" />
     <path
       stroke="currentColor"
       strokeLinecap="round"

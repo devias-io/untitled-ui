@@ -9,6 +9,11 @@ const Rocket01 = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
+      fill="#fff"
+      fillOpacity={0.01}
+      d="M13.0591 3.8293a2.4431 2.4431 0 0 1 1.3827-.741l4.9064-.8177c1.3537-.2256 2.5272.948 2.3016 2.3016l-.8177 4.9065a2.4434 2.4434 0 0 1-.741 1.3827l-7.0691 6.613c-1.8324 1.7142-4.694 1.6665-6.4682-.1077-1.7743-1.7743-1.822-4.6359-.1078-6.4682l6.6131-7.0692Z"
+    />
+    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"

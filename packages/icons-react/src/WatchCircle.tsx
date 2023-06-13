@@ -8,6 +8,12 @@ const WatchCircle = (props: SVGProps<SVGSVGElement>) => (
     fill="none"
     {...props}
   >
+    <path fill="#fff" fillOpacity={0.01} d="M11.3 9.3V12l1.35 1.35" />
+    <path
+      fill="#fff"
+      fillOpacity={0.01}
+      d="M11.3 18.3c3.4794 0 6.3-2.8206 6.3-6.3 0-3.4794-2.8206-6.3-6.3-6.3C7.8206 5.7 5 8.5206 5 12c0 3.4794 2.8206 6.3 6.3 6.3Z"
+    />
     <path
       stroke="currentColor"
       strokeLinecap="round"

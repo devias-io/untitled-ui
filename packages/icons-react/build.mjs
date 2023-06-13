@@ -26,9 +26,7 @@ async function handler(argv) {
   };
 
   const srcDir = path.resolve('./src');
-  const outDir = path.resolve(
-    path.join('./build', useESModules ? 'esm' : 'cjs')
-  );
+  const outDir = path.resolve(path.join('./build', useESModules ? 'esm' : 'cjs'));
   const extensions = ['.js', '.ts', '.tsx'];
   const babelConfigPath = path.resolve('./babel.config.js');
 
@@ -44,9 +42,7 @@ async function handler(argv) {
 
   const command = ['npx babel', ...babelArgs].join(' ');
 
-  const { stderr, stdout } = await exec(command, {
-    env: { ...process.env, ...env }
-  });
+  const { stderr, stdout } = await exec(command, { env: { ...process.env, ...env } });
 
   if (stderr) {
     throw new Error(`'${command}' failed with \n${stderr}`);
@@ -62,7 +58,12 @@ async function handler(argv) {
 }
 
 yargs(hideBin(process.argv))
-  .command('build [bundle]', 'Build bundle', () => {}, handler)
+  .command(
+    'build [bundle]',
+    'Build bundle',
+    () => {},
+    handler
+  )
   .option('verbose', {
     alias: 'v',
     type: 'boolean',

@@ -9,6 +9,11 @@ const BluetoothSignal = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
+      fill="#fff"
+      fillOpacity={0.01}
+      d="m2 7.5 10.8 9L7.4 21V3l5.4 4.5-10.8 9"
+    />
+    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"

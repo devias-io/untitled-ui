@@ -9,6 +9,11 @@ const CurrencyBitcoin = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
+      fill="#fff"
+      fillOpacity={0.01}
+      d="M7.3 4.8H5.5h1.8Zm0 14.4H5.5h1.8Z"
+    />
+    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"

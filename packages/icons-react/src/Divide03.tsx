@@ -9,6 +9,16 @@ const Divide03 = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
+      fill="#fff"
+      fillOpacity={0.01}
+      d="M12.45 8.4a.45.45 0 1 1-.9 0 .45.45 0 0 1 .9 0Zm0 7.2a.45.45 0 1 1-.9 0 .45.45 0 0 1 .9 0Z"
+    />
+    <path
+      fill="#fff"
+      fillOpacity={0.01}
+      d="M12 21c4.9706 0 9-4.0294 9-9s-4.0294-9-9-9-9 4.0294-9 9 4.0294 9 9 9Z"
+    />
+    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"

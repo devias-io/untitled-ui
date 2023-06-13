@@ -9,6 +9,11 @@ const WifiOff = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
+      fill="#fff"
+      fillOpacity={0.01}
+      d="M8.5298 15.61a6.0004 6.0004 0 0 1 6.95 0"
+    />
+    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"

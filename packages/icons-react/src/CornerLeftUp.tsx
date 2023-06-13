@@ -8,6 +8,7 @@ const CornerLeftUp = (props: SVGProps<SVGSVGElement>) => (
     fill="none"
     {...props}
   >
+    <path fill="#fff" fillOpacity={0.01} d="M13 9 8 4 3 9" />
     <path
       stroke="currentColor"
       strokeLinecap="round"
