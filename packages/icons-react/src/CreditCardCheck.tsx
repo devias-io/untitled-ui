@@ -6,6 +6,7 @@ const CreditCardCheck = (props: SVGProps<SVGSVGElement>) => (
     width={24}
     height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
     <path fill="#fff" fillOpacity={0.01} d="m15.6 16.7 1.8 1.8 3.6-3.6" />

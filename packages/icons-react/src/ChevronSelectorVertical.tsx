@@ -6,6 +6,7 @@ const ChevronSelectorVertical = (props: SVGProps<SVGSVGElement>) => (
     width={24}
     height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
     <path fill="#fff" fillOpacity={0.01} d="m7 15 5 5 5-5M7 9l5-5 5 5" />

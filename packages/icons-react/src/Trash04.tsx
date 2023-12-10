@@ -6,6 +6,7 @@ const Trash04 = (props: SVGProps<SVGSVGElement>) => (
     width={24}
     height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
     <path fill="#fff" fillOpacity={0.01} d="M9 3h6-6ZM3 6h18H3Z" />

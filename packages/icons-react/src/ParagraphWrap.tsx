@@ -6,6 +6,7 @@ const ParagraphWrap = (props: SVGProps<SVGSVGElement>) => (
     width={24}
     height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
     <path fill="#fff" fillOpacity={0.01} d="M3 12h15a3 3 0 0 1 0 6h-4" />

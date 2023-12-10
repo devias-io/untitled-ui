@@ -6,6 +6,7 @@ const ArrowsLeft = (props: SVGProps<SVGSVGElement>) => (
     width={24}
     height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
     <path fill="#fff" fillOpacity={0.01} d="m8 21-4-4 4-4m5-2L9 7l4-4" />

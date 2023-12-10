@@ -6,6 +6,7 @@ const Download04 = (props: SVGProps<SVGSVGElement>) => (
     width={24}
     height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
     <path fill="#fff" fillOpacity={0.01} d="m8.4 11.0654 3.6 3.6 3.6-3.6" />

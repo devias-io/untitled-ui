@@ -6,6 +6,7 @@ const CloudLightning = (props: SVGProps<SVGSVGElement>) => (
     width={24}
     height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
     <path fill="#fff" fillOpacity={0.01} d="m12.9 9.2-3.6 5.4h5.4L11.1 20" />

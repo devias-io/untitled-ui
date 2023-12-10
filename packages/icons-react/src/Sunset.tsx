@@ -6,6 +6,7 @@ const Sunset = (props: SVGProps<SVGSVGElement>) => (
     width={24}
     height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
     <path fill="#fff" fillOpacity={0.01} d="M15.6 4.7 12 8.3 8.4 4.7" />

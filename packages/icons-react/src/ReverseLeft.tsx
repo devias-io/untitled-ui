@@ -6,6 +6,7 @@ const ReverseLeft = (props: SVGProps<SVGSVGElement>) => (
     width={24}
     height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
     <path fill="#fff" fillOpacity={0.01} d="M8 3 4 7l4 4" />

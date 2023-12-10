@@ -6,6 +6,7 @@ const ChevronRightDouble = (props: SVGProps<SVGSVGElement>) => (
     width={24}
     height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}
   >
     <path fill="#fff" fillOpacity={0.01} d="m6 17 5-5-5-5m7 10 5-5-5-5" />
