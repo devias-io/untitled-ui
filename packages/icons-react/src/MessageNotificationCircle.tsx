@@ -10,7 +10,7 @@ const MessageNotificationCircle = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="#fff"
+      fill="transparent"
       fillOpacity={0.01}
       d="M20.1209 3.8787c1.1716 1.1716 1.1716 3.071 0 4.2426-1.1715 1.1716-3.071 1.1716-4.2426 0-1.1716-1.1715-1.1716-3.071 0-4.2426 1.1716-1.1716 3.0711-1.1716 4.2426 0Z"
     />

@@ -10,7 +10,7 @@ const BluetoothOn = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="#fff"
+      fill="transparent"
       fillOpacity={0.01}
       d="m6 7.5 10.8 9-5.4 4.5V3l5.4 4.5-10.8 9"
     />

@@ -46,7 +46,8 @@ export async function build(pkgDir, iconsPaths) {
           '@svgr/plugin-prettier'
         ],
         replaceAttrValues: {
-          '#000': 'currentColor'
+          '#000': 'currentColor', // Replace icon color with currentColor
+          '#fff': 'transparent', // Hide icon background
         },
         typescript: true
       },

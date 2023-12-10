@@ -10,7 +10,7 @@ const MarkerPin06 = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="#fff"
+      fill="transparent"
       fillOpacity={0.01}
       d="M12 15.6V8.4v7.2Zm0-7.2c1.4912 0 2.7-1.2088 2.7-2.7S13.4912 3 12 3 9.3 4.2088 9.3 5.7s1.2088 2.7 2.7 2.7Z"
     />

@@ -10,12 +10,12 @@ const Globe05 = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="#fff"
+      fill="transparent"
       fillOpacity={0.01}
       d="M16.5 11c1.8-1.8 3.6-3.4118 3.6-5.4 0-1.9882-1.6118-3.6-3.6-3.6-1.9882 0-3.6 1.6118-3.6 3.6 0 1.9882 1.8 3.6 3.6 5.4Z"
     />
     <path
-      fill="#fff"
+      fill="transparent"
       fillOpacity={0.01}
       d="M16.725 5.375a.225.225 0 1 1-.45 0 .225.225 0 0 1 .45 0Z"
     />

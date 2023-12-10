@@ -10,7 +10,7 @@ const CoinsSwap01 = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="#fff"
+      fill="transparent"
       fillOpacity={0.01}
       d="m6.6 5.6 1.8-1.8L6.6 2m10.8 14.4-1.8 1.8 1.8 1.8m-9 0c2.9823 0 5.4-2.4177 5.4-5.4 0-2.9823-2.4177-5.4-5.4-5.4-2.9823 0-5.4 2.4177-5.4 5.4C3 17.5823 5.4177 20 8.4 20Z"
     />

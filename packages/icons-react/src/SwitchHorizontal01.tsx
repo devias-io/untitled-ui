@@ -9,7 +9,11 @@ const SwitchHorizontal01 = (props: SVGProps<SVGSVGElement>) => (
     viewBox="0 0 24 24"
     {...props}
   >
-    <path fill="#fff" fillOpacity={0.01} d="m8 13-4 4 4 4m8-18 4 4-4 4" />
+    <path
+      fill="transparent"
+      fillOpacity={0.01}
+      d="m8 13-4 4 4 4m8-18 4 4-4 4"
+    />
     <path
       stroke="currentColor"
       strokeLinecap="round"

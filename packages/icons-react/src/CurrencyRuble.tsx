@@ -10,7 +10,7 @@ const CurrencyRuble = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="#fff"
+      fill="transparent"
       fillOpacity={0.01}
       d="M8.5 3.5h6c2.2091 0 4 1.7909 4 4 0 2.2091-1.7909 4-4 4h-6v-8Zm0 8h-2 2Zm5 4h-7 7Z"
     />

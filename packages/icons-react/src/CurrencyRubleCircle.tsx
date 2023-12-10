@@ -10,12 +10,12 @@ const CurrencyRubleCircle = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="#fff"
+      fill="transparent"
       fillOpacity={0.01}
       d="M12 20c4.9706 0 9-4.0294 9-9s-4.0294-9-9-9-9 4.0294-9 9 4.0294 9 9 9Z"
     />
     <path
-      fill="#fff"
+      fill="transparent"
       fillOpacity={0.01}
       d="M9.75 6.05h4.05c1.2426 0 2.25 1.0074 2.25 2.25s-1.0074 2.25-2.25 2.25H9.75v-4.5Zm.225 4.5H8.4h1.575Zm2.925 2.925H8.4h4.5Z"
     />

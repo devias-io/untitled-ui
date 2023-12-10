@@ -9,7 +9,11 @@ const Framer = (props: SVGProps<SVGSVGElement>) => (
     viewBox="0 0 24 24"
     {...props}
   >
-    <path fill="#fff" fillOpacity={0.01} d="M5 1.5h14v7h-7l7 7H5v-7h7l-7-7Z" />
+    <path
+      fill="transparent"
+      fillOpacity={0.01}
+      d="M5 1.5h14v7h-7l7 7H5v-7h7l-7-7Z"
+    />
     <path
       stroke="currentColor"
       strokeLinecap="round"

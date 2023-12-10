@@ -10,7 +10,7 @@ const PresentationChart01 = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="#fff"
+      fill="transparent"
       fillOpacity={0.01}
       d="M12 14.7v4.5-4.5ZM8.4 8.4v2.7-2.7ZM12 6.6v4.5-4.5Zm3.6 3.6v.9-.9Z"
     />

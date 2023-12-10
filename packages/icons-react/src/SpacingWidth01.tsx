@@ -9,7 +9,11 @@ const SpacingWidth01 = (props: SVGProps<SVGSVGElement>) => (
     viewBox="0 0 24 24"
     {...props}
   >
-    <path fill="#fff" fillOpacity={0.01} d="m16 9 2 3-2 3M8 9l-2 3 2 3" />
+    <path
+      fill="transparent"
+      fillOpacity={0.01}
+      d="m16 9 2 3-2 3M8 9l-2 3 2 3"
+    />
     <path
       stroke="currentColor"
       strokeLinecap="round"

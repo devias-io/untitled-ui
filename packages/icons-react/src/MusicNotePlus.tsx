@@ -10,7 +10,7 @@ const MusicNotePlus = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="#fff"
+      fill="transparent"
       fillOpacity={0.01}
       d="M11.5 21c1.6569 0 3-1.3431 3-3 0-1.6568-1.3431-3-3-3s-3 1.3432-3 3c0 1.6569 1.3431 3 3 3Z"
     />

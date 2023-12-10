@@ -10,7 +10,7 @@ const FileQuestion02 = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="#fff"
+      fill="transparent"
       fillOpacity={0.01}
       d="M15.25 14.702a2.0234 2.0234 0 0 1 3.9323.6745c0 1.349-2.0235 2.0235-2.0235 2.0235"
     />

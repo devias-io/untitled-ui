@@ -9,7 +9,7 @@ const Check = (props: SVGProps<SVGSVGElement>) => (
     viewBox="0 0 24 24"
     {...props}
   >
-    <path fill="#fff" fillOpacity={0.01} d="M20 6 9 17l-5-5" />
+    <path fill="transparent" fillOpacity={0.01} d="M20 6 9 17l-5-5" />
     <path
       stroke="currentColor"
       strokeLinecap="round"

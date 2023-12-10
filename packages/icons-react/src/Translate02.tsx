@@ -9,9 +9,9 @@ const Translate02 = (props: SVGProps<SVGSVGElement>) => (
     viewBox="0 0 24 24"
     {...props}
   >
-    <path fill="#fff" fillOpacity={0.01} d="m5.7 7.4 4.5 4.5-4.5-4.5Z" />
+    <path fill="transparent" fillOpacity={0.01} d="m5.7 7.4 4.5 4.5-4.5-4.5Z" />
     <path
-      fill="#fff"
+      fill="transparent"
       fillOpacity={0.01}
       d="m4.8 12.8 5.4-5.4L12 4.7m-9 0h10.8H3ZM7.5 2h.9-.9Zm11.7783 13.5h-6.4566l2.5788-5.3919c.2078-.4345.3117-.6517.4538-.7203a.45.45 0 0 1 .3914 0c.1421.0686.246.2858.4538.7203L19.2783 15.5Z"
     />

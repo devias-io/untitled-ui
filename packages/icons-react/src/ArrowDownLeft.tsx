@@ -9,7 +9,7 @@ const ArrowDownLeft = (props: SVGProps<SVGSVGElement>) => (
     viewBox="0 0 24 24"
     {...props}
   >
-    <path fill="#fff" fillOpacity={0.01} d="M17 17H7V7" />
+    <path fill="transparent" fillOpacity={0.01} d="M17 17H7V7" />
     <path
       stroke="currentColor"
       strokeLinecap="round"

@@ -10,7 +10,7 @@ const Heart = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="#fff"
+      fill="transparent"
       fillOpacity={0.01}
       fillRule="evenodd"
       stroke="currentColor"

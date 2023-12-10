@@ -10,7 +10,7 @@ const PiggyBank01 = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="#fff"
+      fill="transparent"
       fillOpacity={0.01}
       d="M11.55 9.3c1.7397 0 3.15-1.4103 3.15-3.15C14.7 4.4103 13.2897 3 11.55 3 9.8103 3 8.4 4.4103 8.4 6.15c0 1.7397 1.4103 3.15 3.15 3.15Z"
     />

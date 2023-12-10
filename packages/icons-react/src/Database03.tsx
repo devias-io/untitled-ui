@@ -10,12 +10,12 @@ const Database03 = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="#fff"
+      fill="transparent"
       fillOpacity={0.01}
       d="M11.1 21c.9941 0 1.8-.8059 1.8-1.8 0-.9941-.8059-1.8-1.8-1.8-.9941 0-1.8.8059-1.8 1.8 0 .9941.8059 1.8 1.8 1.8Zm0-12.6c4.4735 0 8.1-1.2088 8.1-2.7S15.5735 3 11.1 3 3 4.2088 3 5.7s3.6265 2.7 8.1 2.7Z"
     />
     <path
-      fill="#fff"
+      fill="transparent"
       fillOpacity={0.01}
       d="M3 5.7v5.4c0 1.494 3.6 2.7 8.1 2.7s8.1-1.206 8.1-2.7V5.7"
     />

@@ -10,11 +10,11 @@ const ArrowCircleUp = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="#fff"
+      fill="transparent"
       fillOpacity={0.01}
       d="M12 20c4.9706 0 9-4.0294 9-9s-4.0294-9-9-9-9 4.0294-9 9 4.0294 9 9 9Z"
     />
-    <path fill="#fff" fillOpacity={0.01} d="M15.6 11 12 7.4 8.4 11" />
+    <path fill="transparent" fillOpacity={0.01} d="M15.6 11 12 7.4 8.4 11" />
     <path
       stroke="currentColor"
       strokeLinecap="round"

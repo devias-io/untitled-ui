@@ -9,9 +9,9 @@ const Award04 = (props: SVGProps<SVGSVGElement>) => (
     viewBox="0 0 24 24"
     {...props}
   >
-    <path fill="#fff" fillOpacity={0.01} d="m4.9 3.9 6.3 8.1-6.3-8.1Z" />
+    <path fill="transparent" fillOpacity={0.01} d="m4.9 3.9 6.3 8.1-6.3-8.1Z" />
     <path
-      fill="#fff"
+      fill="transparent"
       fillOpacity={0.01}
       d="M14.382 13.318c1.7573 1.7574 1.7573 4.6066 0 6.364-1.7574 1.7573-4.6066 1.7573-6.364 0-1.7573-1.7574-1.7573-4.6066 0-6.364 1.7574-1.7573 4.6066-1.7573 6.364 0ZM17.5 3.9 11.2 12l6.3-8.1Z"
     />

@@ -10,7 +10,7 @@ const CursorClick02 = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="#fff"
+      fill="transparent"
       fillOpacity={0.01}
       d="m8.85 7.85 3.7 11.5 2.6-2.6L18.4 20l2.6-2.6-3.25-3.25 2.6-2.6-11.5-3.7Z"
     />

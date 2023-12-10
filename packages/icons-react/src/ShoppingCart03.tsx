@@ -10,7 +10,7 @@ const ShoppingCart03 = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="#fff"
+      fill="transparent"
       fillOpacity={0.01}
       d="M7.4 20.55a.45.45 0 1 1-.9 0 .45.45 0 0 1 .9 0Zm8.1 0a.45.45 0 1 1-.9 0 .45.45 0 0 1 .9 0Z"
     />

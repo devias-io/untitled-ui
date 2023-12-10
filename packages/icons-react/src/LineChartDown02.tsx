@@ -10,11 +10,11 @@ const LineChartDown02 = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="#fff"
+      fill="transparent"
       fillOpacity={0.01}
       d="m21 15-5.4343-5.4343c-.198-.198-.297-.297-.4112-.3341a.5.5 0 0 0-.309 0c-.1142.037-.2132.136-.4112.334l-1.8686 1.8687c-.198.198-.297.297-.4112.3341a.499.499 0 0 1-.309 0c-.1142-.0371-.2132-.1361-.4112-.3341L7 7"
     />
-    <path fill="#fff" fillOpacity={0.01} d="M17 15h4v-4" />
+    <path fill="transparent" fillOpacity={0.01} d="M17 15h4v-4" />
     <path
       stroke="currentColor"
       strokeLinecap="round"

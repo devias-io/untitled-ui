@@ -9,7 +9,7 @@ const ChartBreakoutSquare = (props: SVGProps<SVGSVGElement>) => (
     viewBox="0 0 24 24"
     {...props}
   >
-    <path fill="#fff" fillOpacity={0.01} d="M12 8h4v4" />
+    <path fill="transparent" fillOpacity={0.01} d="M12 8h4v4" />
     <path
       stroke="currentColor"
       strokeLinecap="round"

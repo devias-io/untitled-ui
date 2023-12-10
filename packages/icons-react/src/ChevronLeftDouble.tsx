@@ -9,7 +9,11 @@ const ChevronLeftDouble = (props: SVGProps<SVGSVGElement>) => (
     viewBox="0 0 24 24"
     {...props}
   >
-    <path fill="#fff" fillOpacity={0.01} d="m18 17-5-5 5-5m-7 10-5-5 5-5" />
+    <path
+      fill="transparent"
+      fillOpacity={0.01}
+      d="m18 17-5-5 5-5m-7 10-5-5 5-5"
+    />
     <path
       stroke="currentColor"
       strokeLinecap="round"

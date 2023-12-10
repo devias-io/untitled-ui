@@ -10,12 +10,12 @@ const LifeBuoy02 = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="#fff"
+      fill="transparent"
       fillOpacity={0.01}
       d="M12 21c4.9706 0 9-4.0294 9-9s-4.0294-9-9-9-9 4.0294-9 9 4.0294 9 9 9Z"
     />
     <path
-      fill="#fff"
+      fill="transparent"
       fillOpacity={0.01}
       d="M12 16.5c2.4853 0 4.5-2.0147 4.5-4.5S14.4853 7.5 12 7.5 7.5 9.5147 7.5 12s2.0147 4.5 4.5 4.5Z"
     />

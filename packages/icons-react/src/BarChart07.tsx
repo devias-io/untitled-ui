@@ -10,7 +10,7 @@ const BarChart07 = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="#fff"
+      fill="transparent"
       fillOpacity={0.01}
       d="M7 10.5v7-7Zm4.5-5v12-12Zm4.5 5v7-7Zm4.5-5v12-12Z"
     />

@@ -10,7 +10,7 @@ const HorizontalBarChart03 = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="#fff"
+      fill="transparent"
       fillOpacity={0.01}
       d="M17.76 18.75c.504 0 .7561 0 .9486-.0981a.9006.9006 0 0 0 .3933-.3933c.0981-.1925.0981-.4446.0981-.9486v-1.62c0-.504 0-.7561-.0981-.9486a.9006.9006 0 0 0-.3933-.3933c-.1925-.0981-.4446-.0981-.9486-.0981H3v4.5h14.76ZM3 3v18V3Z"
     />

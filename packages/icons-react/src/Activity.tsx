@@ -10,7 +10,7 @@ const Activity = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="#fff"
+      fill="transparent"
       fillOpacity={0.01}
       d="M21 11.1h-3.6l-2.7 8.1L9.3 3l-2.7 8.1H3"
     />

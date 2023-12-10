@@ -10,7 +10,7 @@ const UserRight01 = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="#fff"
+      fill="transparent"
       fillOpacity={0.01}
       d="M10.2 11.1c2.2368 0 4.05-1.8133 4.05-4.05S12.4368 3 10.2 3C7.9633 3 6.15 4.8133 6.15 7.05s1.8133 4.05 4.05 4.05Z"
     />

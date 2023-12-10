@@ -10,7 +10,7 @@ const Hash02 = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="#fff"
+      fill="transparent"
       fillOpacity={0.01}
       d="m7.3333 16 1.3334-8h7.9999l-1.3333 8h-8Z"
     />
